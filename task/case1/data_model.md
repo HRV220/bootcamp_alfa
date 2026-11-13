@@ -93,6 +93,8 @@ erDiagram
 |---|---|
 | `match_id`, `steam_account_id` | Ключи из покупок |
 | `first_purchase_time` | `min(time)` для `itemid = 164` на пару «матч–покупатель» после проверки всей истории пары |
+| `median_purchase_time_sec` | Медиана первых времён в секундах на окончательной очищенной выборке; нужно рассчитать перед сравнением винрейтов |
+| `timing_group` | `early`, если первое время не больше медианы всего среза; `late`, если больше |
 | `hero_id`, `rank`, `is_radiant`, `win` | Участник матча |
 | `duration`, `game_mode`, `lobby_type`, `radiant_win` | Матч |
 
@@ -113,7 +115,7 @@ erDiagram
 | Таблица в `lakehouse.stage` | Содержимое |
 |---|---|
 | `case1_dominator_purchase_events` | [SQL событий](stage_purchase_events.sql). Все исходные строки `itemid = 164`, включая диагностические. Контекст добавлен без размножения; `dq_reasons` хранит причины исключения, `event_valid` — результат проверки. Если ID повторяется в RAW, строки сохраняются с ошибкой, а не схлопываются |
-| `case1_dominator_first_purchase` | [SQL первых покупок](stage_first_purchase.sql). Одна строка на `(match_id, steam_account_id)` только для пар без проблемных событий; сохраняется `player_slot`. Первое время в секундах/минутах, Unix-время покупки, число событий и группа `early`/`late` |
+| `case1_dominator_first_purchase` | [SQL первых покупок](stage_first_purchase.sql). Одна строка на `(match_id, steam_account_id)` только для пар без проблемных событий; сохраняется `player_slot`. Первое время в секундах/минутах, Unix-время покупки и число событий. В текущей MART-реализации группа `early`/`late` определяется после расчёта медианы очищенной выборки |
 
 Обе таблицы содержат `stage_loaded_at` и `rules_version` (актуальная версия — `case1-stage-sql-v2`). Первая сохраняет `source_job_id`, время исходной загрузки, `buyer_purchase_events_count` и `exceeds_purchase_limit`. Вторая содержит `source_stage_loaded_at` для сверки версии событий, `is_anonymous`, `rank_is_unknown`, `history_complete = NULL` и `is_provisional = true`. Техническая проверка не доказывает полноту истории. Время матча/покупки хранится также в Unix-секундах, без зависимости от часового пояса SQL-движка.
 
