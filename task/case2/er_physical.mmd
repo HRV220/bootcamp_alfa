@@ -1,0 +1,69 @@
+erDiagram
+    PG_MATCHES |o..o{ PG_MATCH_PLAYERS : "match_id; documented relation"
+    PG_HEROES |o..o{ PG_MATCH_PLAYERS : "hero_id; reference lookup"
+
+    PG_MATCHES {
+        bigint match_id PK
+        int start_time
+        int duration
+        int game_mode
+        int lobby_type
+        boolean radiant_win
+    }
+    PG_HEROES {
+        int hero_id PK
+        string name
+        string localized_name
+        string_array roles
+    }
+    PG_MATCH_PLAYERS {
+        bigint match_id PK,FK
+        int player_slot PK
+        bigint account_id
+        int hero_id FK
+        int rank
+        int kills
+        int deaths
+        int assists
+        float kda
+        int gold
+        int gold_spent
+        int gold_per_min
+        int xp_per_min
+        int net_worth
+        int hero_damage
+        int tower_damage
+        int hero_healing
+        int last_hits
+        int denies
+        int level
+        boolean is_radiant
+        boolean win
+    }
+    CSV_SMURF_PLAYERS {
+        bigint match_id PK "observed composite key"
+        int player_slot PK "observed composite key"
+        bigint account_id
+        int hero_id
+        int kills
+        int deaths
+        int assists
+        float kda
+        int gold_per_min
+        int xp_per_min
+        int hero_damage
+        int last_hits
+        boolean win
+        int rank "empty"
+        string calibration "empty; type unknown"
+        string rank_known "empty; type unknown"
+        boolean anon
+        string tier "empty; type unknown"
+        double dur_min
+        double hd_pm
+        double lh_pm
+        string kda_c "empty; type unknown"
+        string farm_pos "empty; type unknown"
+        string perf_z "empty; type unknown"
+        int smurf "all values are 1"
+    }

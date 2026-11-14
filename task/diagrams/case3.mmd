@@ -1,0 +1,107 @@
+erDiagram
+    MATCHES |o..o{ MATCH_PLAYERS : "match_id"
+    HEROES |o..o{ MATCH_PLAYERS : "hero_id"
+    MATCHES |o..o{ PURCHASE_EVENTS : "match_id"
+    ITEMS |o..o{ PURCHASE_EVENTS : "item_id = itemid"
+    MATCHES |o..o{ KILL_EVENTS : "match_id"
+    MATCHES |o..o{ TOWER_DEATH_EVENTS : "match_id"
+    MATCHES |o..o{ GOLD_EVENTS : "match_id"
+    MATCHES |o..o{ BUYBACK_EVENTS : "match_id"
+    MATCHES |o..o{ STREAK_EVENTS : "match_id"
+    HEROES |o..o{ STREAK_EVENTS : "hero_id = heroId"
+    MATCHES |o..o| MATCH_PAYLOAD : "match_id; contextual only"
+    MATCH_PAYLOAD ||--o{ CLEAN_EVENTS : "match_id; nested events"
+    CLEAN_EVENTS ||..o| EVENT_DESCRIPTION : "match_id + event_id; target contract"
+    MATCH_PAYLOAD ||--o| MATCH_SUMMARY : "one current result"
+
+    MATCHES {
+        bigint match_id PK
+        int duration
+        boolean radiant_win
+        int radiant_score
+        int dire_score
+    }
+    MATCH_PLAYERS {
+        bigint match_id PK,FK
+        int player_slot PK
+        bigint account_id
+        int hero_id FK
+        boolean is_radiant
+    }
+    HEROES {
+        int hero_id PK
+        string localized_name
+    }
+    ITEMS {
+        int item_id PK
+        string name
+        string localized_name
+        int cost
+    }
+    PURCHASE_EVENTS {
+        string id PK
+        bigint match_id FK
+        bigint steam_account_id
+        int itemid FK
+        int time
+    }
+    KILL_EVENTS {
+        string id PK
+        bigint match_id FK
+        bigint steam_account_id
+        int time
+        int attacker "ID semantics need checking"
+        int target "ID semantics need checking"
+        int gold
+        int xp
+    }
+    TOWER_DEATH_EVENTS {
+        string id PK
+        bigint match_id FK
+        int time
+        int radiant
+        int dire
+    }
+    GOLD_EVENTS {
+        string id PK
+        bigint match_id FK
+        bigint steam_account_id
+        int time
+        int amount
+        string reason
+    }
+    BUYBACK_EVENTS {
+        string id PK
+        bigint match_id FK
+        bigint steam_account_id
+        int time
+        int cost
+    }
+    STREAK_EVENTS {
+        string id PK
+        bigint match_id FK
+        bigint steam_account_id
+        int time
+        int heroId FK
+        string type
+        int value
+    }
+    MATCH_PAYLOAD {
+        bigint match_id PK,FK
+    }
+    CLEAN_EVENTS {
+        bigint match_id PK,FK
+        string event_id PK
+        string type
+        int time
+        json facts "type-specific fields"
+    }
+    EVENT_DESCRIPTION {
+        bigint match_id PK,FK
+        string event_id PK,FK
+        string description
+    }
+    MATCH_SUMMARY {
+        bigint match_id PK,FK
+        string content
+    }

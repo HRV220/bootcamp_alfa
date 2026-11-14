@@ -1,0 +1,143 @@
+erDiagram
+    MATCHES |o..o{ MATCH_PLAYERS : "match_id"
+    HEROES |o..o{ MATCH_PLAYERS : "hero_id"
+    MATCHES |o..o{ PURCHASE_EVENTS : "match_id"
+    ITEMS |o..o{ PURCHASE_EVENTS : "item_id = itemid"
+    MATCH_PLAYERS |o..o{ PURCHASE_EVENTS : "match_id + account; unique only"
+    MATCHES |o..o{ KILL_EVENTS : "match_id"
+    MATCHES |o..o{ TOWER_DEATH_EVENTS : "match_id"
+    MATCHES |o..o{ GOLD_EVENTS : "match_id"
+    MATCHES |o..o{ BUYBACK_EVENTS : "match_id"
+    MATCHES |o..o{ STREAK_EVENTS : "match_id"
+    MATCH_PLAYERS ||..o| DOMINATOR_FIRST_PURCHASE : "match_id + player_slot"
+    MATCH_PLAYERS |o..o| SMURF_OBSERVATIONS : "match_id + player_slot; align snapshots"
+    MATCH_PLAYERS ||..o| ML_SAMPLES : "match_id + player_slot; in memory"
+    ML_SAMPLES ||..o| ML_PREDICTIONS : "one selected model; test rows"
+    MATCHES |o..o| MATCH_PAYLOAD : "match_id; in memory"
+    MATCH_PAYLOAD ||--o{ CLEAN_EVENTS : "match_id; nested events"
+    MATCH_PAYLOAD ||--o| MATCH_SUMMARY : "one current result"
+
+    MATCHES {
+        bigint match_id PK
+        int duration
+        int game_mode
+        int lobby_type
+        boolean radiant_win
+    }
+    MATCH_PLAYERS {
+        bigint match_id PK,FK
+        int player_slot PK
+        bigint account_id
+        int hero_id FK
+        int rank
+        boolean is_radiant
+        boolean win
+        int gold_per_min
+        int xp_per_min
+    }
+    HEROES {
+        int hero_id PK
+        string localized_name
+    }
+    ITEMS {
+        int item_id PK
+        string name
+        string localized_name
+        int cost
+    }
+    PURCHASE_EVENTS {
+        string id PK
+        bigint match_id FK
+        bigint steam_account_id
+        int itemid FK
+        int time
+    }
+    KILL_EVENTS {
+        string id PK
+        bigint match_id FK
+        bigint steam_account_id
+        int time
+        int attacker
+        int target
+    }
+    TOWER_DEATH_EVENTS {
+        string id PK
+        bigint match_id FK
+        int time
+        int radiant
+        int dire
+    }
+    GOLD_EVENTS {
+        string id PK
+        bigint match_id FK
+        bigint steam_account_id
+        int time
+        int amount
+        string reason
+    }
+    BUYBACK_EVENTS {
+        string id PK
+        bigint match_id FK
+        bigint steam_account_id
+        int time
+        int cost
+    }
+    STREAK_EVENTS {
+        string id PK
+        bigint match_id FK
+        bigint steam_account_id
+        int time
+        int heroId
+        string type
+        int value
+    }
+    DOMINATOR_FIRST_PURCHASE {
+        bigint match_id PK,FK
+        bigint steam_account_id PK
+        int player_slot FK
+        int first_purchase_time_sec
+        double median_purchase_time_sec
+        string timing_group
+        boolean win
+    }
+    SMURF_OBSERVATIONS {
+        bigint match_id PK,FK
+        int player_slot PK,FK
+        bigint account_id
+        int hero_id
+        double dur_min
+        double hd_pm
+        double lh_pm
+        int smurf
+    }
+    ML_SAMPLES {
+        bigint match_id PK,FK
+        int player_slot PK,FK
+        bigint account_id
+        string group
+        double tier
+        double farm_pos
+        double perf_z
+        int smurf
+        boolean label_ok
+    }
+    ML_PREDICTIONS {
+        bigint match_id PK,FK
+        int player_slot PK,FK
+        double pte
+        double thr
+    }
+    MATCH_PAYLOAD {
+        bigint match_id PK,FK
+    }
+    CLEAN_EVENTS {
+        bigint match_id PK,FK
+        string event_id PK
+        string type
+        int time
+        json facts
+    }
+    MATCH_SUMMARY {
+        bigint match_id PK,FK
+        string content
+    }

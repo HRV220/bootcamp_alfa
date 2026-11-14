@@ -1,0 +1,94 @@
+erDiagram
+    MATCHES |o..o{ MATCH_PLAYERS : "match_id; contextual"
+    HEROES |o..o{ MATCH_PLAYERS : "hero_id"
+    MATCH_PLAYERS |o..o| SMURF_OBSERVATIONS : "match_id + player_slot; align snapshots"
+    MATCH_PLAYERS ||..o| ML_SAMPLES : "match_id + player_slot; in memory"
+    PEER_REFERENCE |o..o{ ML_SAMPLES : "tier + farm_pos; fitted on train"
+    ML_SAMPLES ||..o| ML_PREDICTIONS : "selected model; test rows"
+
+    MATCHES {
+        bigint match_id PK
+        int start_time
+        int duration
+        int game_mode
+        int lobby_type
+        boolean radiant_win
+    }
+    HEROES {
+        int hero_id PK
+        string localized_name
+        string_array roles
+    }
+    MATCH_PLAYERS {
+        bigint match_id PK,FK
+        int player_slot PK
+        bigint account_id
+        int hero_id FK
+        int rank
+        int kills
+        int deaths
+        int assists
+        float kda
+        int gold_per_min
+        int xp_per_min
+        int hero_damage
+        int last_hits
+        boolean is_radiant
+        boolean win
+    }
+    SMURF_OBSERVATIONS {
+        bigint match_id PK,FK
+        int player_slot PK,FK
+        bigint account_id
+        int hero_id
+        int gold_per_min
+        int xp_per_min
+        float kda
+        int hero_damage
+        int last_hits
+        boolean win
+        int rank "all NULL"
+        boolean calibration "all NULL; type pending"
+        boolean rank_known "all NULL; type pending"
+        boolean anon
+        int tier "all NULL; type pending"
+        double dur_min
+        double hd_pm
+        double lh_pm
+        double kda_c "all NULL; type pending"
+        int farm_pos "all NULL; type pending"
+        double perf_z "all NULL; type pending"
+        int smurf "all 1; label origin unknown"
+    }
+    ML_SAMPLES {
+        bigint match_id PK,FK
+        int player_slot PK,FK
+        bigint account_id
+        int hero_id
+        string group
+        boolean rank_known
+        int calibration
+        boolean anon
+        double tier FK
+        double farm_pos FK
+        double dur_min
+        double hd_pm
+        double lh_pm
+        double kda_c
+        double perf_z
+        int smurf
+        boolean label_ok
+    }
+    PEER_REFERENCE {
+        double tier PK
+        double farm_pos PK
+        json mu "means of five metrics"
+        json sd "std of five metrics"
+    }
+    ML_PREDICTIONS {
+        bigint match_id PK,FK
+        int player_slot PK,FK
+        int yte "heuristic target"
+        double pte "CatBoost probability"
+        double thr "selected on validation"
+    }
