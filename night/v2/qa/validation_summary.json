@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "package": true,
+    "geometry": true,
+    "source_materials_unchanged": true,
+    "embedded_original_images": true,
+    "notes_complete": true,
+    "pdf_15_pages": true,
+    "png_15_slides": true
+  },
+  "passed": true,
+  "source_material_count": 48,
+  "changed_sources": [],
+  "slide_count": 15,
+  "native_table_count": 9,
+  "pptx_sha256": "f07ac179a66681add4e0c00d21bc423ae476cc54604a77c67ad629c38114f965",
+  "limits": "File checks and saved-output audit only. No cluster/notebook/API rerun; independent visual review is separate."
+}

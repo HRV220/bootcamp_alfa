@@ -1,0 +1,17 @@
+{
+  "source": "task/case1/1.1.png",
+  "evidence_type": "manually transcribed displayed BI values after visual inspection",
+  "unit": "buyer-match observation for early/late comparison",
+  "groups": [
+    {"group": "Ранняя покупка", "is_early": true, "displayed_winrate_fraction": 0.544, "winrate_pct": 54.4, "displayed_n": "6.04k", "n_is_exact": false, "displayed_delta_vs_50_pp": 4.4, "displayed_group_median_buy_min": 8.6},
+    {"group": "Поздняя покупка", "is_early": false, "displayed_winrate_fraction": 0.4691, "winrate_pct": 46.91, "displayed_n": "5.99k", "n_is_exact": false, "displayed_delta_vs_50_pp": -3.09, "displayed_group_median_buy_min": 13.8}
+  ],
+  "difference_pp_from_displayed_values": 7.49,
+  "difference_is_display_derived": true,
+  "original_target_pp": 3,
+  "overall_median_threshold_value": null,
+  "confidence_interval": null,
+  "actual_snapshot_period_verified": false,
+  "team_chart_exact_values_available": false,
+  "caveat": "Descriptive association only. Counts are displayed in abbreviated form. Group medians 8.6 and 13.8 minutes are not the split threshold."
+}

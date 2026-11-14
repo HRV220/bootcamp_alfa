@@ -1,0 +1,728 @@
+{
+  "events": [
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623041",
+      "description": "На 0:15 Monkey King убил Dragon Knight, получив 536 золота и 66 опыта."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62304d",
+      "description": "На 3:38 Warlock убил Queen of Pain, получив 314 золота и 269 опыта."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623068",
+      "description": "На 3:53 Rubick убил Shadow Fiend, получив 346 золота и 880 опыта."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623054",
+      "description": "На 4:19 Axe убил Ogre Magi, получив 314 золота и 269 опыта."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62305e",
+      "description": "На 5:11 Queen of Pain убила Axe."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623045",
+      "description": "На 5:16 Witch Doctor убил Dragon Knight, получив 330 золота и 722 опыта."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623046",
+      "description": "На 5:18 Witch Doctor убил Ogre Magi, получив 330 золота и 688 опыта."
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c6a",
+      "description": "На 5:18 Witch Doctor оформил мультикилл на 2."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62304f",
+      "description": "На 5:30 Shadow Fiend убил Rubick, получив 410 золота и 1744 опыта."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fd3",
+      "description": "На 5:37 Rubick купил Phylactery за 2600."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623069",
+      "description": "На 6:02 Rubick убил Shadow Fiend."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62306a",
+      "description": "На 6:45 Rubick убил Shadow Fiend, получив 410 золота и 1978 опыта."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622ed2",
+      "description": "На 6:51 Monkey King купил Diffusal Blade за 2500."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62305a",
+      "description": "На 6:55 Ogre Magi убил Axe, получив 378 золота и 628 опыта."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fd4",
+      "description": "На 6:56 Rubick купил Boots of Travel за 2500."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623047",
+      "description": "На 6:59 Witch Doctor убил Ogre Magi, получив 378 золота и 1458 опыта."
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c6b",
+      "description": "На 6:59 Witch Doctor оформил серию убийств на 3."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f4a",
+      "description": "На 7:01 Axe купил Blink Dagger за 2250."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f61",
+      "description": "На 7:01 Ogre Magi купил Hand of Midas за 2200."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622ee8",
+      "description": "На 7:04 Witch Doctor купил Aether Lens за 2275."
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272b8",
+      "description": "На 7:15 разрушена башня."
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272b9",
+      "description": "На 7:47 разрушена башня."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623042",
+      "description": "На 7:52 Monkey King убил Ogre Magi, получив 394 золота и 409 опыта."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623055",
+      "description": "На 7:53 Axe убил Dragon Knight, получив 410 золота и 440 опыта."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62306b",
+      "description": "На 7:55 Rubick убил Axe, получив 410 золота и 1848 опыта."
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c75",
+      "description": "На 7:55 Rubick оформил серию убийств на 3."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62305f",
+      "description": "На 8:12 Queen of Pain убила Witch Doctor, получив 410 золота и 1006 опыта."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62306c",
+      "description": "На 8:16 Rubick убил Monkey King, получив 410 золота и 992 опыта."
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c76",
+      "description": "На 8:16 Rubick оформил серию убийств на 4."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f4b",
+      "description": "На 8:21 Rubick купил Blink Dagger за 2250."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623048",
+      "description": "На 8:23 Witch Doctor убил Queen of Pain, получив 442 золота."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f91",
+      "description": "На 8:26 Queen of Pain купила Witch Blade за 2775."
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272ba",
+      "description": "На 8:26 разрушена башня."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f27",
+      "description": "На 8:31 Shadow Fiend купил Boots of Travel за 2500."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622eff",
+      "description": "На 8:41 Warlock купил Aghanim's Scepter за 4200."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623050",
+      "description": "На 9:19 Shadow Fiend убил Rubick, получив 738 золота и 1804 опыта."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623077",
+      "description": "На 9:23 Dragon Knight убил Witch Doctor, получив 458 золота и 1056 опыта."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622ee9",
+      "description": "На 9:27 Witch Doctor купил Boots of Travel за 2500."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622ffb",
+      "description": "На 9:38 Dragon Knight купил Blink Dagger за 2250."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f65",
+      "description": "На 9:46 Ogre Magi купил Yasha за 2100."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f4d",
+      "description": "На 10:03 Axe купил Blade Mail за 2400."
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272bb",
+      "description": "На 10:32 разрушена башня."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623060",
+      "description": "На 10:37 Queen of Pain убила Witch Doctor, получив 458 золота и 972 опыта."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623056",
+      "description": "На 10:41 Axe убил Queen of Pain, получив 474 золота и 1085 опыта."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623051",
+      "description": "На 10:42 Shadow Fiend убил Zeus, получив 474 золота и 1614 опыта."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623049",
+      "description": "На 10:49 Witch Doctor убил Dragon Knight, получив 490 золота."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622edd",
+      "description": "На 11: - Monkey King купил Echo Sabre за 2700."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f96",
+      "description": "На 11:18 Queen of Pain купила Kaya за 2100."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fdd",
+      "description": "На 11:46 Rubick купил Aghanim's Scepter за 4200."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f6b",
+      "description": "На 12:16 Ogre Magi купил Kaya за 2100."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f6c",
+      "description": "На 12:16 Ogre Magi купил Yasha and Kaya за 4200."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fb4",
+      "description": "На 12:22 Zeus купил Aghanim's Scepter за 4200."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62306d",
+      "description": "На 12:46 Rubick убил Axe, получив 538 золота и 1242 опыта."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623043",
+      "description": "На 12:56 Monkey King убил Queen of Pain, получив 506 золота и 1290 опыта."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623078",
+      "description": "На 12:57 Dragon Knight убил Witch Doctor, получив 490 золота и 913 опыта."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62304e",
+      "description": "На 12:58 Warlock убил Dragon Knight, получив 522 золота и 1510 опыта."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62306e",
+      "description": "На 13:01 Rubick убил Shadow Fiend, получив 570 золота и 2022 опыта."
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c77",
+      "description": "На 13:01 Rubick оформил мультикилл на 2."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f97",
+      "description": "На 13:09 Queen of Pain купила Sange за 2100."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f98",
+      "description": "На 13:09 Queen of Pain купила Kaya and Sange за 4200."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622ffc",
+      "description": "На 13:57 Dragon Knight купил Aghanim's Scepter за 4200."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f34",
+      "description": "На 14:05 Shadow Fiend купил Force Staff за 2200."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f35",
+      "description": "На 14:05 Shadow Fiend купил Hurricane Pike за 4550."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fdf",
+      "description": "На 14:27 Rubick купил Soul Booster за 3000."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fe0",
+      "description": "На 14:27 Rubick купил Khanda за 5600."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f71",
+      "description": "На 14:51 Ogre Magi купил Echo Sabre за 2700."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623052",
+      "description": "На 14:57 Shadow Fiend убил Rubick, получив 722 золота."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62306f",
+      "description": "На 14:57 Rubick убил Shadow Fiend, получив 570 золота и 2092 опыта."
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c78",
+      "description": "На 14:57 Rubick оформил серию убийств на 3."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623061",
+      "description": "На 15:02 Queen of Pain убила Axe, получив 538 золота и 2522 опыта."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62304a",
+      "description": "На 15:03 Witch Doctor убил Ogre Magi, получив 554 золота и 5364 опыта."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f4e",
+      "description": "На 15:03 Axe купил Black King Bar за 4050."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f09",
+      "description": "На 15:30 Warlock купил Refresher Orb за 5000."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622eed",
+      "description": "На 15:31 Witch Doctor купил Blink Dagger за 2250."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622eda",
+      "description": "На 15:42 Monkey King купил Black King Bar за 4050."
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272bc",
+      "description": "На 15:42 разрушена башня."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f75",
+      "description": "На 16:28 Ogre Magi купил Harpoon за 4700."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623057",
+      "description": "На 16:34 Axe убил Zeus, получив 554 золота и 1087 опыта."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623058",
+      "description": "На 16:38 Axe убил Ogre Magi, получив 554 золота и 1371 опыта."
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c6c",
+      "description": "На 16:38 Axe оформил мультикилл на 2."
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272bd",
+      "description": "На 16:46 разрушена башня."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623044",
+      "description": "На 17:07 Monkey King убил Rubick, получив 602 золота и 1465 опыта."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623070",
+      "description": "На 17:08 Rubick убил Shadow Fiend, получив 618 золота."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623071",
+      "description": "На 17:08 Rubick убил Witch Doctor, получив 618 золота."
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c79",
+      "description": "На 17:08 Rubick оформил мультикилл на 2."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f9b",
+      "description": "На 17:30 Queen of Pain купила Black King Bar за 4050."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622ffd",
+      "description": "На 17:32 Dragon Knight купил Shiva's Guard за 4500."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fe5",
+      "description": "На 17:48 Rubick купил Kaya за 2100."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f4f",
+      "description": "На 18:18 Axe купил Pipe of Insight за 3725."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f3b",
+      "description": "На 18:46 Shadow Fiend купил Daedalus за 5200."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623062",
+      "description": "На 19:22 Queen of Pain убила Witch Doctor, получив 618 золота и 3891 опыта."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623063",
+      "description": "На 19:23 Queen of Pain убила Shadow Fiend, получив 618 золота и 3928 опыта."
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c6f",
+      "description": "На 19:23 Queen of Pain оформил серию убийств на 3."
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c70",
+      "description": "На 19:23 Queen of Pain оформил мультикилл на 2."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623064",
+      "description": "На 19:29 Queen of Pain убила Warlock, получив 586 золота и 6682 опыта."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fe6",
+      "description": "На 19:29 Rubick купил Yasha за 2100."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fe7",
+      "description": "На 19:29 Rubick купил Yasha and Kaya за 4200."
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c71",
+      "description": "На 19:29 Queen of Pain оформил серию убийств на 4."
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c72",
+      "description": "На 19:29 Queen of Pain оформил мультикилл на 3."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623072",
+      "description": "На 19:31 Rubick убил Axe, получив 586 золота и 1742 опыта."
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c7a",
+      "description": "На 19:31 Rubick оформил серию убийств на 3."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fb5",
+      "description": "На 19:37 Zeus купил Refresher Orb за 5000."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f9e",
+      "description": "На 19:43 Queen of Pain купила Aghanim's Scepter за 4200."
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272be",
+      "description": "На 20:09 разрушена башня."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622ffe",
+      "description": "На 20:12 Dragon Knight купил Black King Bar за 4050."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f13",
+      "description": "На 20:25 Warlock купил Soul Booster за 3000."
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272bf",
+      "description": "На 20:28 разрушена башня."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fe8",
+      "description": "На 20:30 Rubick купил Eul's Scepter of Divinity за 2600."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623073",
+      "description": "На 20:49 Rubick убил Witch Doctor, получив 618 золота и 4173 опыта."
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c7b",
+      "description": "На 20:49 Rubick оформил серию убийств на 4."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f7",
+      "description": "На 21: - Ogre Magi купил Skull Basher за 2875."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623074",
+      "description": "На 21: - Rubick убил Shadow Fiend, получив 634 золота и 4185 опыта."
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c7c",
+      "description": "На 21: - Rubick оформил серию убийств на 5."
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c7d",
+      "description": "На 21: - Rubick оформил мультикилл на 2."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623075",
+      "description": "На 21: - Rubick убил Monkey King, получив 634 золота и 9118 опыта."
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c7e",
+      "description": "На 21: - Rubick оформил серию убийств на 6."
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c7f",
+      "description": "На 21: - Rubick оформил мультикилл на 3."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62305b",
+      "description": "На 21: - Ogre Magi убил Axe, получив 618 золота и 2013 опыта."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623065",
+      "description": "На 21:28 Queen of Pain убила Warlock, получив 650 золота."
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c73",
+      "description": "На 21:28 Queen of Pain оформил серию убийств на 5."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fe9",
+      "description": "На 21:36 Rubick купил Mystic Staff за 2800."
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272c0",
+      "description": "На 21:39 разрушена башня."
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272c1",
+      "description": "На 21:44 разрушена башня."
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272c2",
+      "description": "На 21:49 разрушена башня."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622feb",
+      "description": "На 21:53 Rubick купил Wind Waker за 6800."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f7c",
+      "description": "На 22: - Ogre Magi купил Sange за 2100."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622ef7",
+      "description": "На 22: - Witch Doctor купил Aghanim's Scepter за 4200."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fa1",
+      "description": "На 22: - Queen of Pain купила Ultimate Orb за 2800."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fa4",
+      "description": "На 22: - Queen of Pain купила Linken's Sphere за 4800."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623067",
+      "description": "На 22:10 Zeus убил Witch Doctor, получив 618 золота и 2107 опыта."
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272c3",
+      "description": "На 22:13 разрушена башня."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f7d",
+      "description": "На 22:25 Ogre Magi купил Abyssal Blade за 6250."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623066",
+      "description": "На 22:32 Queen of Pain убила Monkey King, получив 188 золота."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623079",
+      "description": "На 22:32 Dragon Knight убил Axe, получив 650 золота и 3048 опыта."
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c74",
+      "description": "На 22:32 Queen of Pain оформил серию убийств на 6."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622edd",
+      "description": "На 22:37 Monkey King купил Eye of Skadi за 5900."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fa6",
+      "description": "На 22:44 Queen of Pain купила Reaver за 2800."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fa9",
+      "description": "На 22:44 Queen of Pain купила Heart of Tarrasque за 5300."
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272c4",
+      "description": "На 22:45 разрушена башня."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62307a",
+      "description": "На 22:48 Dragon Knight убил Shadow Fiend."
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c81",
+      "description": "На 22:48 Dragon Knight оформил мультикилл на 2."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fb6",
+      "description": "На 23:07 Zeus купил Soul Booster за 3000."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fb7",
+      "description": "На 23:07 Zeus купил Octarine Core за 5100."
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272c5",
+      "description": "На 23:11 разрушена башня."
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272c6",
+      "description": "На 23:16 разрушена башня."
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272c7",
+      "description": "На 23:17 разрушена башня."
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272c8",
+      "description": "На 23:18 разрушена башня."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fff",
+      "description": "На 23:22 Dragon Knight купил Soul Booster за 3000."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed623000",
+      "description": "На 23:22 Dragon Knight купил Octarine Core за 5100."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed623002",
+      "description": "На 23:39 Dragon Knight купил Aghanim's Blessing за 5800."
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272c9",
+      "description": "На 23:48 разрушена башня."
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272ca",
+      "description": "На 23:48 разрушена башня."
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272cb",
+      "description": "На 23:49 разрушена башня."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623076",
+      "description": "На 23:51 Rubick убил Warlock, получив 650 золота."
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c80",
+      "description": "На 23:51 Rubick оформил серию убийств на 7."
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272cc",
+      "description": "На 23:51 разрушена башня."
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272cd",
+      "description": "На 23:56 разрушена башня."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fef",
+      "description": "На 23:59 Rubick купил Aghanim's Blessing за 5800."
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272ce",
+      "description": "На 23:59 разрушена башня."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f7e",
+      "description": "На 24:00 Ogre Magi купил Heart of Tarrasque за 5300."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622ff0",
+      "description": "На 24:01 Rubick купил Refresher Orb за 5000."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623059",
+      "description": "На 24:05 Axe убил Rubick, получив 1290 золота и 4068 опыта."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f14",
+      "description": "На 24:05 Warlock купил Octarine Core за 5100."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62305c",
+      "description": "На 24:09 Ogre Magi убил Monkey King."
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272cf",
+      "description": "На 24:09 разрушена башня."
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272d0",
+      "description": "На 24:13 разрушена башня."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62305d",
+      "description": "На 24:15 Ogre Magi убил Shadow Fiend, получив 666 золота и 2286 опыта."
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c6d",
+      "description": "На 24:15 Ogre Magi оформил серию убийств на 3."
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c6e",
+      "description": "На 24:15 Ogre Magi оформил мультикилл на 2."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62304b",
+      "description": "На 24:16 Witch Doctor убил Ogre Magi, получив 818 золота и 4880 опыта."
+    },
+    {
+      "event_id": "buyback:6af7fdde2652c8d2ed62307d",
+      "description": "На 24:17 Shadow Fiend использовал buyback."
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622ff2",
+      "description": "На 24:18 Rubick купил Boots of Travel 2 за 4500."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62307b",
+      "description": "На 24:22 Dragon Knight убил Axe, получив 682 золота и 3048 опыта."
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c82",
+      "description": "На 24:22 Dragon Knight оформил серию убийств на 3."
+    },
+    {
+      "event_id": "buyback:6af7fdde2652c8d2ed62307e",
+      "description": "На 24:23 Axe использовал buyback."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623053",
+      "description": "На 24:28 Shadow Fiend убил Zeus, получив 698 золота и 4572 опыта."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62307c",
+      "description": "На 24:29 Dragon Knight убил Witch Doctor, получив 666 золота и 5409 опыта."
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c83",
+      "description": "На 24:29 Dragon Knight оформил серию убийств на 4."
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c84",
+      "description": "На 24:29 Dragon Knight оформил мультикилл на 2."
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62304c",
+      "description": "На 24:39 Witch Doctor убил Dragon Knight, получив 930 золота."
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272d1",
+      "description": "На 24:52 разрушена башня."
+    }
+  ]
+}

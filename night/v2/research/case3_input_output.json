@@ -1,0 +1,1664 @@
+{
+  "match_id": 9045752693,
+  "events": [
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623041",
+      "type": "hero_kill",
+      "time": 15,
+      "attacker": "Monkey King",
+      "target": "Dragon Knight",
+      "kill_from_radiant": 1,
+      "killer_account_id": 107741011,
+      "gold": 536,
+      "xp": 66
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62304d",
+      "type": "hero_kill",
+      "time": 218,
+      "attacker": "Warlock",
+      "target": "Queen of Pain",
+      "kill_from_radiant": 1,
+      "killer_account_id": 177076440,
+      "gold": 314,
+      "xp": 269
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623068",
+      "type": "hero_kill",
+      "time": 233,
+      "attacker": "Rubick",
+      "target": "Shadow Fiend",
+      "kill_from_radiant": 0,
+      "killer_account_id": 341106989,
+      "gold": 346,
+      "xp": 880
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623054",
+      "type": "hero_kill",
+      "time": 259,
+      "attacker": "Axe",
+      "target": "Ogre Magi",
+      "kill_from_radiant": 1,
+      "killer_account_id": 353416760,
+      "gold": 314,
+      "xp": 269
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62305e",
+      "type": "hero_kill",
+      "time": 311,
+      "attacker": "Queen of Pain",
+      "target": "Axe",
+      "kill_from_radiant": 0,
+      "killer_account_id": 379109073,
+      "gold": 346,
+      "xp": 255
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623045",
+      "type": "hero_kill",
+      "time": 316,
+      "attacker": "Witch Doctor",
+      "target": "Dragon Knight",
+      "kill_from_radiant": 1,
+      "killer_account_id": 116914948,
+      "gold": 330,
+      "xp": 722
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623046",
+      "type": "hero_kill",
+      "time": 318,
+      "attacker": "Witch Doctor",
+      "target": "Ogre Magi",
+      "kill_from_radiant": 1,
+      "killer_account_id": 116914948,
+      "gold": 330,
+      "xp": 688
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c6a",
+      "type": "multi_kill",
+      "time": 318,
+      "hero": "Witch Doctor",
+      "account_id": 116914948,
+      "value": 2
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62304f",
+      "type": "hero_kill",
+      "time": 330,
+      "attacker": "Shadow Fiend",
+      "target": "Rubick",
+      "kill_from_radiant": 1,
+      "killer_account_id": 247894525,
+      "gold": 410,
+      "xp": 1744
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fd3",
+      "type": "item_purchase",
+      "time": 337,
+      "hero": "Rubick",
+      "account_id": 341106989,
+      "item": "Phylactery",
+      "item_cost": 2600
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623069",
+      "type": "hero_kill",
+      "time": 362,
+      "attacker": "Rubick",
+      "target": "Shadow Fiend",
+      "kill_from_radiant": 0,
+      "killer_account_id": 341106989,
+      "gold": 410,
+      "xp": 1902
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62306a",
+      "type": "hero_kill",
+      "time": 405,
+      "attacker": "Rubick",
+      "target": "Shadow Fiend",
+      "kill_from_radiant": 0,
+      "killer_account_id": 341106989,
+      "gold": 410,
+      "xp": 1978
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622ed2",
+      "type": "item_purchase",
+      "time": 411,
+      "hero": "Monkey King",
+      "account_id": 107741011,
+      "item": "Diffusal Blade",
+      "item_cost": 2500
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62305a",
+      "type": "hero_kill",
+      "time": 415,
+      "attacker": "Ogre Magi",
+      "target": "Axe",
+      "kill_from_radiant": 0,
+      "killer_account_id": 841238035,
+      "gold": 378,
+      "xp": 628
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fd4",
+      "type": "item_purchase",
+      "time": 416,
+      "hero": "Rubick",
+      "account_id": 341106989,
+      "item": "Boots of Travel",
+      "item_cost": 2500
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623047",
+      "type": "hero_kill",
+      "time": 419,
+      "attacker": "Witch Doctor",
+      "target": "Ogre Magi",
+      "kill_from_radiant": 1,
+      "killer_account_id": 116914948,
+      "gold": 378,
+      "xp": 1458
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c6b",
+      "type": "kill_streak",
+      "time": 419,
+      "hero": "Witch Doctor",
+      "account_id": 116914948,
+      "value": 3
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f4c",
+      "type": "item_purchase",
+      "time": 421,
+      "hero": "Axe",
+      "account_id": 353416760,
+      "item": "Blink Dagger",
+      "item_cost": 2250
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f61",
+      "type": "item_purchase",
+      "time": 421,
+      "hero": "Ogre Magi",
+      "account_id": 841238035,
+      "item": "Hand of Midas",
+      "item_cost": 2200
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622ee8",
+      "type": "item_purchase",
+      "time": 424,
+      "hero": "Witch Doctor",
+      "account_id": 116914948,
+      "item": "Aether Lens",
+      "item_cost": 2275
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272b8",
+      "type": "tower_destroyed",
+      "time": 435,
+      "radiant_mask": 0,
+      "dire_mask": 1
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272b9",
+      "type": "tower_destroyed",
+      "time": 467,
+      "radiant_mask": 4,
+      "dire_mask": 1
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623042",
+      "type": "hero_kill",
+      "time": 472,
+      "attacker": "Monkey King",
+      "target": "Ogre Magi",
+      "kill_from_radiant": 1,
+      "killer_account_id": 107741011,
+      "gold": 394,
+      "xp": 409
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623055",
+      "type": "hero_kill",
+      "time": 473,
+      "attacker": "Axe",
+      "target": "Dragon Knight",
+      "kill_from_radiant": 1,
+      "killer_account_id": 353416760,
+      "gold": 410,
+      "xp": 440
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62306b",
+      "type": "hero_kill",
+      "time": 475,
+      "attacker": "Rubick",
+      "target": "Axe",
+      "kill_from_radiant": 0,
+      "killer_account_id": 341106989,
+      "gold": 410,
+      "xp": 1848
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c75",
+      "type": "kill_streak",
+      "time": 475,
+      "hero": "Rubick",
+      "account_id": 341106989,
+      "value": 3
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62305f",
+      "type": "hero_kill",
+      "time": 492,
+      "attacker": "Queen of Pain",
+      "target": "Witch Doctor",
+      "kill_from_radiant": 0,
+      "killer_account_id": 379109073,
+      "gold": 410,
+      "xp": 1006
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62306c",
+      "type": "hero_kill",
+      "time": 496,
+      "attacker": "Rubick",
+      "target": "Monkey King",
+      "kill_from_radiant": 0,
+      "killer_account_id": 341106989,
+      "gold": 410,
+      "xp": 992
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c76",
+      "type": "kill_streak",
+      "time": 496,
+      "hero": "Rubick",
+      "account_id": 341106989,
+      "value": 4
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fd8",
+      "type": "item_purchase",
+      "time": 501,
+      "hero": "Rubick",
+      "account_id": 341106989,
+      "item": "Blink Dagger",
+      "item_cost": 2250
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623048",
+      "type": "hero_kill",
+      "time": 503,
+      "attacker": "Witch Doctor",
+      "target": "Queen of Pain",
+      "kill_from_radiant": 1,
+      "killer_account_id": 116914948,
+      "gold": 442
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f91",
+      "type": "item_purchase",
+      "time": 506,
+      "hero": "Queen of Pain",
+      "account_id": 379109073,
+      "item": "Witch Blade",
+      "item_cost": 2775
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272ba",
+      "type": "tower_destroyed",
+      "time": 506,
+      "radiant_mask": 4,
+      "dire_mask": 5
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f27",
+      "type": "item_purchase",
+      "time": 511,
+      "hero": "Shadow Fiend",
+      "account_id": 247894525,
+      "item": "Boots of Travel",
+      "item_cost": 2500
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622eff",
+      "type": "item_purchase",
+      "time": 521,
+      "hero": "Warlock",
+      "account_id": 177076440,
+      "item": "Aghanim's Scepter",
+      "item_cost": 4200
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623050",
+      "type": "hero_kill",
+      "time": 559,
+      "attacker": "Shadow Fiend",
+      "target": "Rubick",
+      "kill_from_radiant": 1,
+      "killer_account_id": 247894525,
+      "gold": 738,
+      "xp": 1804
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623077",
+      "type": "hero_kill",
+      "time": 563,
+      "attacker": "Dragon Knight",
+      "target": "Witch Doctor",
+      "kill_from_radiant": 0,
+      "killer_account_id": 214684991,
+      "gold": 458,
+      "xp": 1056
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622ee9",
+      "type": "item_purchase",
+      "time": 567,
+      "hero": "Witch Doctor",
+      "account_id": 116914948,
+      "item": "Boots of Travel",
+      "item_cost": 2500
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622ffb",
+      "type": "item_purchase",
+      "time": 578,
+      "hero": "Dragon Knight",
+      "account_id": 214684991,
+      "item": "Blink Dagger",
+      "item_cost": 2250
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f65",
+      "type": "item_purchase",
+      "time": 586,
+      "hero": "Ogre Magi",
+      "account_id": 841238035,
+      "item": "Yasha",
+      "item_cost": 2100
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f4d",
+      "type": "item_purchase",
+      "time": 603,
+      "hero": "Axe",
+      "account_id": 353416760,
+      "item": "Blade Mail",
+      "item_cost": 2400
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272bb",
+      "type": "tower_destroyed",
+      "time": 632,
+      "radiant_mask": 6,
+      "dire_mask": 5
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623060",
+      "type": "hero_kill",
+      "time": 637,
+      "attacker": "Queen of Pain",
+      "target": "Witch Doctor",
+      "kill_from_radiant": 0,
+      "killer_account_id": 379109073,
+      "gold": 458,
+      "xp": 972
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623056",
+      "type": "hero_kill",
+      "time": 641,
+      "attacker": "Axe",
+      "target": "Queen of Pain",
+      "kill_from_radiant": 1,
+      "killer_account_id": 353416760,
+      "gold": 474,
+      "xp": 1085
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623051",
+      "type": "hero_kill",
+      "time": 642,
+      "attacker": "Shadow Fiend",
+      "target": "Zeus",
+      "kill_from_radiant": 1,
+      "killer_account_id": 247894525,
+      "gold": 474,
+      "xp": 1614
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623049",
+      "type": "hero_kill",
+      "time": 649,
+      "attacker": "Witch Doctor",
+      "target": "Dragon Knight",
+      "kill_from_radiant": 1,
+      "killer_account_id": 116914948,
+      "gold": 490
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622ed5",
+      "type": "item_purchase",
+      "time": 657,
+      "hero": "Monkey King",
+      "account_id": 107741011,
+      "item": "Echo Sabre",
+      "item_cost": 2700
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f96",
+      "type": "item_purchase",
+      "time": 678,
+      "hero": "Queen of Pain",
+      "account_id": 379109073,
+      "item": "Kaya",
+      "item_cost": 2100
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fdd",
+      "type": "item_purchase",
+      "time": 706,
+      "hero": "Rubick",
+      "account_id": 341106989,
+      "item": "Aghanim's Scepter",
+      "item_cost": 4200
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f6b",
+      "type": "item_purchase",
+      "time": 736,
+      "hero": "Ogre Magi",
+      "account_id": 841238035,
+      "item": "Kaya",
+      "item_cost": 2100
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f6c",
+      "type": "item_purchase",
+      "time": 736,
+      "hero": "Ogre Magi",
+      "account_id": 841238035,
+      "item": "Yasha and Kaya",
+      "item_cost": 4200
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fb4",
+      "type": "item_purchase",
+      "time": 742,
+      "hero": "Zeus",
+      "account_id": 145673180,
+      "item": "Aghanim's Scepter",
+      "item_cost": 4200
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62306d",
+      "type": "hero_kill",
+      "time": 766,
+      "attacker": "Rubick",
+      "target": "Axe",
+      "kill_from_radiant": 0,
+      "killer_account_id": 341106989,
+      "gold": 538,
+      "xp": 1242
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623043",
+      "type": "hero_kill",
+      "time": 776,
+      "attacker": "Monkey King",
+      "target": "Queen of Pain",
+      "kill_from_radiant": 1,
+      "killer_account_id": 107741011,
+      "gold": 506,
+      "xp": 1290
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623078",
+      "type": "hero_kill",
+      "time": 777,
+      "attacker": "Dragon Knight",
+      "target": "Witch Doctor",
+      "kill_from_radiant": 0,
+      "killer_account_id": 214684991,
+      "gold": 490,
+      "xp": 913
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62304e",
+      "type": "hero_kill",
+      "time": 778,
+      "attacker": "Warlock",
+      "target": "Dragon Knight",
+      "kill_from_radiant": 1,
+      "killer_account_id": 177076440,
+      "gold": 522,
+      "xp": 1510
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62306e",
+      "type": "hero_kill",
+      "time": 781,
+      "attacker": "Rubick",
+      "target": "Shadow Fiend",
+      "kill_from_radiant": 0,
+      "killer_account_id": 341106989,
+      "gold": 570,
+      "xp": 2022
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c77",
+      "type": "multi_kill",
+      "time": 781,
+      "hero": "Rubick",
+      "account_id": 341106989,
+      "value": 2
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f97",
+      "type": "item_purchase",
+      "time": 789,
+      "hero": "Queen of Pain",
+      "account_id": 379109073,
+      "item": "Sange",
+      "item_cost": 2100
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f98",
+      "type": "item_purchase",
+      "time": 789,
+      "hero": "Queen of Pain",
+      "account_id": 379109073,
+      "item": "Kaya and Sange",
+      "item_cost": 4200
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622ffc",
+      "type": "item_purchase",
+      "time": 837,
+      "hero": "Dragon Knight",
+      "account_id": 214684991,
+      "item": "Aghanim's Scepter",
+      "item_cost": 4200
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f34",
+      "type": "item_purchase",
+      "time": 845,
+      "hero": "Shadow Fiend",
+      "account_id": 247894525,
+      "item": "Force Staff",
+      "item_cost": 2200
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f35",
+      "type": "item_purchase",
+      "time": 845,
+      "hero": "Shadow Fiend",
+      "account_id": 247894525,
+      "item": "Hurricane Pike",
+      "item_cost": 4550
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fdf",
+      "type": "item_purchase",
+      "time": 867,
+      "hero": "Rubick",
+      "account_id": 341106989,
+      "item": "Soul Booster",
+      "item_cost": 3000
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fe0",
+      "type": "item_purchase",
+      "time": 867,
+      "hero": "Rubick",
+      "account_id": 341106989,
+      "item": "Khanda",
+      "item_cost": 5600
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f71",
+      "type": "item_purchase",
+      "time": 891,
+      "hero": "Ogre Magi",
+      "account_id": 841238035,
+      "item": "Echo Sabre",
+      "item_cost": 2700
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623052",
+      "type": "hero_kill",
+      "time": 897,
+      "attacker": "Shadow Fiend",
+      "target": "Rubick",
+      "kill_from_radiant": 1,
+      "killer_account_id": 247894525,
+      "gold": 722
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62306f",
+      "type": "hero_kill",
+      "time": 897,
+      "attacker": "Rubick",
+      "target": "Shadow Fiend",
+      "kill_from_radiant": 0,
+      "killer_account_id": 341106989,
+      "gold": 570,
+      "xp": 2092
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c78",
+      "type": "kill_streak",
+      "time": 897,
+      "hero": "Rubick",
+      "account_id": 341106989,
+      "value": 3
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623061",
+      "type": "hero_kill",
+      "time": 902,
+      "attacker": "Queen of Pain",
+      "target": "Axe",
+      "kill_from_radiant": 0,
+      "killer_account_id": 379109073,
+      "gold": 538,
+      "xp": 2522
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62304a",
+      "type": "hero_kill",
+      "time": 903,
+      "attacker": "Witch Doctor",
+      "target": "Ogre Magi",
+      "kill_from_radiant": 1,
+      "killer_account_id": 116914948,
+      "gold": 554,
+      "xp": 5364
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f4e",
+      "type": "item_purchase",
+      "time": 903,
+      "hero": "Axe",
+      "account_id": 353416760,
+      "item": "Black King Bar",
+      "item_cost": 4050
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f09",
+      "type": "item_purchase",
+      "time": 930,
+      "hero": "Warlock",
+      "account_id": 177076440,
+      "item": "Refresher Orb",
+      "item_cost": 5000
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622eed",
+      "type": "item_purchase",
+      "time": 931,
+      "hero": "Witch Doctor",
+      "account_id": 116914948,
+      "item": "Blink Dagger",
+      "item_cost": 2250
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622eda",
+      "type": "item_purchase",
+      "time": 942,
+      "hero": "Monkey King",
+      "account_id": 107741011,
+      "item": "Black King Bar",
+      "item_cost": 4050
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272bc",
+      "type": "tower_destroyed",
+      "time": 942,
+      "radiant_mask": 6,
+      "dire_mask": 7
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f75",
+      "type": "item_purchase",
+      "time": 988,
+      "hero": "Ogre Magi",
+      "account_id": 841238035,
+      "item": "Harpoon",
+      "item_cost": 4700
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623057",
+      "type": "hero_kill",
+      "time": 994,
+      "attacker": "Axe",
+      "target": "Zeus",
+      "kill_from_radiant": 1,
+      "killer_account_id": 353416760,
+      "gold": 554,
+      "xp": 1087
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623058",
+      "type": "hero_kill",
+      "time": 998,
+      "attacker": "Axe",
+      "target": "Ogre Magi",
+      "kill_from_radiant": 1,
+      "killer_account_id": 353416760,
+      "gold": 554,
+      "xp": 1371
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c6c",
+      "type": "multi_kill",
+      "time": 998,
+      "hero": "Axe",
+      "account_id": 353416760,
+      "value": 2
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272bd",
+      "type": "tower_destroyed",
+      "time": 1006,
+      "radiant_mask": 7,
+      "dire_mask": 7
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623044",
+      "type": "hero_kill",
+      "time": 1027,
+      "attacker": "Monkey King",
+      "target": "Rubick",
+      "kill_from_radiant": 1,
+      "killer_account_id": 107741011,
+      "gold": 602,
+      "xp": 1465
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623070",
+      "type": "hero_kill",
+      "time": 1028,
+      "attacker": "Rubick",
+      "target": "Shadow Fiend",
+      "kill_from_radiant": 0,
+      "killer_account_id": 341106989,
+      "gold": 618
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623071",
+      "type": "hero_kill",
+      "time": 1028,
+      "attacker": "Rubick",
+      "target": "Witch Doctor",
+      "kill_from_radiant": 0,
+      "killer_account_id": 341106989,
+      "gold": 618
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c79",
+      "type": "multi_kill",
+      "time": 1028,
+      "hero": "Rubick",
+      "account_id": 341106989,
+      "value": 2
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f9b",
+      "type": "item_purchase",
+      "time": 1050,
+      "hero": "Queen of Pain",
+      "account_id": 379109073,
+      "item": "Black King Bar",
+      "item_cost": 4050
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622ffd",
+      "type": "item_purchase",
+      "time": 1052,
+      "hero": "Dragon Knight",
+      "account_id": 214684991,
+      "item": "Shiva's Guard",
+      "item_cost": 4500
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fe5",
+      "type": "item_purchase",
+      "time": 1068,
+      "hero": "Rubick",
+      "account_id": 341106989,
+      "item": "Kaya",
+      "item_cost": 2100
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f4f",
+      "type": "item_purchase",
+      "time": 1098,
+      "hero": "Axe",
+      "account_id": 353416760,
+      "item": "Pipe of Insight",
+      "item_cost": 3725
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f3b",
+      "type": "item_purchase",
+      "time": 1126,
+      "hero": "Shadow Fiend",
+      "account_id": 247894525,
+      "item": "Daedalus",
+      "item_cost": 5200
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623062",
+      "type": "hero_kill",
+      "time": 1162,
+      "attacker": "Queen of Pain",
+      "target": "Witch Doctor",
+      "kill_from_radiant": 0,
+      "killer_account_id": 379109073,
+      "gold": 618,
+      "xp": 3891
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623063",
+      "type": "hero_kill",
+      "time": 1163,
+      "attacker": "Queen of Pain",
+      "target": "Shadow Fiend",
+      "kill_from_radiant": 0,
+      "killer_account_id": 379109073,
+      "gold": 618,
+      "xp": 3928
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c6f",
+      "type": "kill_streak",
+      "time": 1163,
+      "hero": "Queen of Pain",
+      "account_id": 379109073,
+      "value": 3
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c70",
+      "type": "multi_kill",
+      "time": 1163,
+      "hero": "Queen of Pain",
+      "account_id": 379109073,
+      "value": 2
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623064",
+      "type": "hero_kill",
+      "time": 1169,
+      "attacker": "Queen of Pain",
+      "target": "Warlock",
+      "kill_from_radiant": 0,
+      "killer_account_id": 379109073,
+      "gold": 586,
+      "xp": 6682
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fe6",
+      "type": "item_purchase",
+      "time": 1169,
+      "hero": "Rubick",
+      "account_id": 341106989,
+      "item": "Yasha",
+      "item_cost": 2100
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fe7",
+      "type": "item_purchase",
+      "time": 1169,
+      "hero": "Rubick",
+      "account_id": 341106989,
+      "item": "Yasha and Kaya",
+      "item_cost": 4200
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c71",
+      "type": "kill_streak",
+      "time": 1169,
+      "hero": "Queen of Pain",
+      "account_id": 379109073,
+      "value": 4
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c72",
+      "type": "multi_kill",
+      "time": 1169,
+      "hero": "Queen of Pain",
+      "account_id": 379109073,
+      "value": 3
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623072",
+      "type": "hero_kill",
+      "time": 1171,
+      "attacker": "Rubick",
+      "target": "Axe",
+      "kill_from_radiant": 0,
+      "killer_account_id": 341106989,
+      "gold": 586,
+      "xp": 1742
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c7a",
+      "type": "kill_streak",
+      "time": 1171,
+      "hero": "Rubick",
+      "account_id": 341106989,
+      "value": 3
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fb5",
+      "type": "item_purchase",
+      "time": 1177,
+      "hero": "Zeus",
+      "account_id": 145673180,
+      "item": "Refresher Orb",
+      "item_cost": 5000
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f9e",
+      "type": "item_purchase",
+      "time": 1183,
+      "hero": "Queen of Pain",
+      "account_id": 379109073,
+      "item": "Aghanim's Scepter",
+      "item_cost": 4200
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272be",
+      "type": "tower_destroyed",
+      "time": 1209,
+      "radiant_mask": 23,
+      "dire_mask": 7
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622ffe",
+      "type": "item_purchase",
+      "time": 1212,
+      "hero": "Dragon Knight",
+      "account_id": 214684991,
+      "item": "Black King Bar",
+      "item_cost": 4050
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f13",
+      "type": "item_purchase",
+      "time": 1225,
+      "hero": "Warlock",
+      "account_id": 177076440,
+      "item": "Soul Booster",
+      "item_cost": 3000
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272bf",
+      "type": "tower_destroyed",
+      "time": 1228,
+      "radiant_mask": 31,
+      "dire_mask": 7
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fe8",
+      "type": "item_purchase",
+      "time": 1230,
+      "hero": "Rubick",
+      "account_id": 341106989,
+      "item": "Eul's Scepter of Divinity",
+      "item_cost": 2600
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623073",
+      "type": "hero_kill",
+      "time": 1249,
+      "attacker": "Rubick",
+      "target": "Witch Doctor",
+      "kill_from_radiant": 0,
+      "killer_account_id": 341106989,
+      "gold": 618,
+      "xp": 4173
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c7b",
+      "type": "kill_streak",
+      "time": 1249,
+      "hero": "Rubick",
+      "account_id": 341106989,
+      "value": 4
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f7b",
+      "type": "item_purchase",
+      "time": 1250,
+      "hero": "Ogre Magi",
+      "account_id": 841238035,
+      "item": "Skull Basher",
+      "item_cost": 2875
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623074",
+      "type": "hero_kill",
+      "time": 1251,
+      "attacker": "Rubick",
+      "target": "Shadow Fiend",
+      "kill_from_radiant": 0,
+      "killer_account_id": 341106989,
+      "gold": 634,
+      "xp": 4185
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c7c",
+      "type": "kill_streak",
+      "time": 1251,
+      "hero": "Rubick",
+      "account_id": 341106989,
+      "value": 5
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c7d",
+      "type": "multi_kill",
+      "time": 1251,
+      "hero": "Rubick",
+      "account_id": 341106989,
+      "value": 2
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623075",
+      "type": "hero_kill",
+      "time": 1256,
+      "attacker": "Rubick",
+      "target": "Monkey King",
+      "kill_from_radiant": 0,
+      "killer_account_id": 341106989,
+      "gold": 634,
+      "xp": 9118
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c7e",
+      "type": "kill_streak",
+      "time": 1256,
+      "hero": "Rubick",
+      "account_id": 341106989,
+      "value": 6
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c7f",
+      "type": "multi_kill",
+      "time": 1256,
+      "hero": "Rubick",
+      "account_id": 341106989,
+      "value": 3
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62305b",
+      "type": "hero_kill",
+      "time": 1262,
+      "attacker": "Ogre Magi",
+      "target": "Axe",
+      "kill_from_radiant": 0,
+      "killer_account_id": 841238035,
+      "gold": 618,
+      "xp": 2013
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623065",
+      "type": "hero_kill",
+      "time": 1288,
+      "attacker": "Queen of Pain",
+      "target": "Warlock",
+      "kill_from_radiant": 0,
+      "killer_account_id": 379109073,
+      "gold": 650
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c73",
+      "type": "kill_streak",
+      "time": 1288,
+      "hero": "Queen of Pain",
+      "account_id": 379109073,
+      "value": 5
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fe9",
+      "type": "item_purchase",
+      "time": 1296,
+      "hero": "Rubick",
+      "account_id": 341106989,
+      "item": "Mystic Staff",
+      "item_cost": 2800
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272c0",
+      "type": "tower_destroyed",
+      "time": 1299,
+      "radiant_mask": 159,
+      "dire_mask": 7
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272c1",
+      "type": "tower_destroyed",
+      "time": 1304,
+      "radiant_mask": 16543,
+      "dire_mask": 7
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272c2",
+      "type": "tower_destroyed",
+      "time": 1309,
+      "radiant_mask": 18591,
+      "dire_mask": 7
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622feb",
+      "type": "item_purchase",
+      "time": 1313,
+      "hero": "Rubick",
+      "account_id": 341106989,
+      "item": "Wind Waker",
+      "item_cost": 6800
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f7c",
+      "type": "item_purchase",
+      "time": 1316,
+      "hero": "Ogre Magi",
+      "account_id": 841238035,
+      "item": "Sange",
+      "item_cost": 2100
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622ef7",
+      "type": "item_purchase",
+      "time": 1320,
+      "hero": "Witch Doctor",
+      "account_id": 116914948,
+      "item": "Aghanim's Scepter",
+      "item_cost": 4200
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fa1",
+      "type": "item_purchase",
+      "time": 1320,
+      "hero": "Queen of Pain",
+      "account_id": 379109073,
+      "item": "Ultimate Orb",
+      "item_cost": 2800
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fa4",
+      "type": "item_purchase",
+      "time": 1320,
+      "hero": "Queen of Pain",
+      "account_id": 379109073,
+      "item": "Linken's Sphere",
+      "item_cost": 4800
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623067",
+      "type": "hero_kill",
+      "time": 1330,
+      "attacker": "Zeus",
+      "target": "Witch Doctor",
+      "kill_from_radiant": 0,
+      "killer_account_id": 145673180,
+      "gold": 618,
+      "xp": 2107
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272c3",
+      "type": "tower_destroyed",
+      "time": 1333,
+      "radiant_mask": 18623,
+      "dire_mask": 7
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f7d",
+      "type": "item_purchase",
+      "time": 1345,
+      "hero": "Ogre Magi",
+      "account_id": 841238035,
+      "item": "Abyssal Blade",
+      "item_cost": 6250
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623066",
+      "type": "hero_kill",
+      "time": 1352,
+      "attacker": "Queen of Pain",
+      "target": "Monkey King",
+      "kill_from_radiant": 0,
+      "killer_account_id": 379109073,
+      "gold": 188
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623079",
+      "type": "hero_kill",
+      "time": 1352,
+      "attacker": "Dragon Knight",
+      "target": "Axe",
+      "kill_from_radiant": 0,
+      "killer_account_id": 214684991,
+      "gold": 650,
+      "xp": 3048
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c74",
+      "type": "kill_streak",
+      "time": 1352,
+      "hero": "Queen of Pain",
+      "account_id": 379109073,
+      "value": 6
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622edd",
+      "type": "item_purchase",
+      "time": 1357,
+      "hero": "Monkey King",
+      "account_id": 107741011,
+      "item": "Eye of Skadi",
+      "item_cost": 5900
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fa6",
+      "type": "item_purchase",
+      "time": 1364,
+      "hero": "Queen of Pain",
+      "account_id": 379109073,
+      "item": "Reaver",
+      "item_cost": 2800
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fa9",
+      "type": "item_purchase",
+      "time": 1364,
+      "hero": "Queen of Pain",
+      "account_id": 379109073,
+      "item": "Heart of Tarrasque",
+      "item_cost": 5300
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272c4",
+      "type": "tower_destroyed",
+      "time": 1365,
+      "radiant_mask": 18623,
+      "dire_mask": 7
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62307a",
+      "type": "hero_kill",
+      "time": 1368,
+      "attacker": "Dragon Knight",
+      "target": "Shadow Fiend",
+      "kill_from_radiant": 0,
+      "killer_account_id": 214684991,
+      "gold": 650,
+      "xp": 3048
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c81",
+      "type": "multi_kill",
+      "time": 1368,
+      "hero": "Dragon Knight",
+      "account_id": 214684991,
+      "value": 2
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fb6",
+      "type": "item_purchase",
+      "time": 1387,
+      "hero": "Zeus",
+      "account_id": 145673180,
+      "item": "Soul Booster",
+      "item_cost": 3000
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fb7",
+      "type": "item_purchase",
+      "time": 1387,
+      "hero": "Zeus",
+      "account_id": 145673180,
+      "item": "Octarine Core",
+      "item_cost": 5100
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272c5",
+      "type": "tower_destroyed",
+      "time": 1391,
+      "radiant_mask": 18879,
+      "dire_mask": 7
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272c6",
+      "type": "tower_destroyed",
+      "time": 1396,
+      "radiant_mask": 22975,
+      "dire_mask": 7
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272c7",
+      "type": "tower_destroyed",
+      "time": 1397,
+      "radiant_mask": 22975,
+      "dire_mask": 7
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272c8",
+      "type": "tower_destroyed",
+      "time": 1398,
+      "radiant_mask": 55743,
+      "dire_mask": 7
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fff",
+      "type": "item_purchase",
+      "time": 1402,
+      "hero": "Dragon Knight",
+      "account_id": 214684991,
+      "item": "Soul Booster",
+      "item_cost": 3000
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed623000",
+      "type": "item_purchase",
+      "time": 1402,
+      "hero": "Dragon Knight",
+      "account_id": 214684991,
+      "item": "Octarine Core",
+      "item_cost": 5100
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed623002",
+      "type": "item_purchase",
+      "time": 1419,
+      "hero": "Dragon Knight",
+      "account_id": 214684991,
+      "item": "Aghanim's Blessing",
+      "item_cost": 5800
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272c9",
+      "type": "tower_destroyed",
+      "time": 1428,
+      "radiant_mask": 56255,
+      "dire_mask": 7
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272ca",
+      "type": "tower_destroyed",
+      "time": 1428,
+      "radiant_mask": 56255,
+      "dire_mask": 7
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272cb",
+      "type": "tower_destroyed",
+      "time": 1429,
+      "radiant_mask": 56319,
+      "dire_mask": 7
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623076",
+      "type": "hero_kill",
+      "time": 1431,
+      "attacker": "Rubick",
+      "target": "Warlock",
+      "kill_from_radiant": 0,
+      "killer_account_id": 341106989,
+      "gold": 650
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c80",
+      "type": "kill_streak",
+      "time": 1431,
+      "hero": "Rubick",
+      "account_id": 341106989,
+      "value": 7
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272cc",
+      "type": "tower_destroyed",
+      "time": 1431,
+      "radiant_mask": 56319,
+      "dire_mask": 7
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272cd",
+      "type": "tower_destroyed",
+      "time": 1436,
+      "radiant_mask": 57343,
+      "dire_mask": 7
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622fef",
+      "type": "item_purchase",
+      "time": 1439,
+      "hero": "Rubick",
+      "account_id": 341106989,
+      "item": "Aghanim's Blessing",
+      "item_cost": 5800
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272ce",
+      "type": "tower_destroyed",
+      "time": 1439,
+      "radiant_mask": 65535,
+      "dire_mask": 7
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f7e",
+      "type": "item_purchase",
+      "time": 1440,
+      "hero": "Ogre Magi",
+      "account_id": 841238035,
+      "item": "Heart of Tarrasque",
+      "item_cost": 5300
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622ff0",
+      "type": "item_purchase",
+      "time": 1441,
+      "hero": "Rubick",
+      "account_id": 341106989,
+      "item": "Refresher Orb",
+      "item_cost": 5000
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623059",
+      "type": "hero_kill",
+      "time": 1445,
+      "attacker": "Axe",
+      "target": "Rubick",
+      "kill_from_radiant": 1,
+      "killer_account_id": 353416760,
+      "gold": 1290,
+      "xp": 4068
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622f14",
+      "type": "item_purchase",
+      "time": 1445,
+      "hero": "Warlock",
+      "account_id": 177076440,
+      "item": "Octarine Core",
+      "item_cost": 5100
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62305c",
+      "type": "hero_kill",
+      "time": 1449,
+      "attacker": "Ogre Magi",
+      "target": "Monkey King",
+      "kill_from_radiant": 0,
+      "killer_account_id": 841238035,
+      "gold": 650,
+      "xp": 2286
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272cf",
+      "type": "tower_destroyed",
+      "time": 1449,
+      "radiant_mask": 65535,
+      "dire_mask": 7
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272d0",
+      "type": "tower_destroyed",
+      "time": 1453,
+      "radiant_mask": 65535,
+      "dire_mask": 7
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62305d",
+      "type": "hero_kill",
+      "time": 1455,
+      "attacker": "Ogre Magi",
+      "target": "Shadow Fiend",
+      "kill_from_radiant": 0,
+      "killer_account_id": 841238035,
+      "gold": 666,
+      "xp": 2286
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c6d",
+      "type": "kill_streak",
+      "time": 1455,
+      "hero": "Ogre Magi",
+      "account_id": 841238035,
+      "value": 3
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c6e",
+      "type": "multi_kill",
+      "time": 1455,
+      "hero": "Ogre Magi",
+      "account_id": 841238035,
+      "value": 2
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62304b",
+      "type": "hero_kill",
+      "time": 1456,
+      "attacker": "Witch Doctor",
+      "target": "Ogre Magi",
+      "kill_from_radiant": 1,
+      "killer_account_id": 116914948,
+      "gold": 818,
+      "xp": 4880
+    },
+    {
+      "event_id": "buyback:6af7fdde2652c8d2ed62307d",
+      "type": "buyback",
+      "time": 1457,
+      "hero": "Shadow Fiend",
+      "account_id": 247894525,
+      "cost": 0
+    },
+    {
+      "event_id": "purchase:6af7fdde2652c8d2ed622ff2",
+      "type": "item_purchase",
+      "time": 1458,
+      "hero": "Rubick",
+      "account_id": 341106989,
+      "item": "Boots of Travel 2",
+      "item_cost": 4500
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62307b",
+      "type": "hero_kill",
+      "time": 1462,
+      "attacker": "Dragon Knight",
+      "target": "Axe",
+      "kill_from_radiant": 0,
+      "killer_account_id": 214684991,
+      "gold": 682,
+      "xp": 3048
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c82",
+      "type": "kill_streak",
+      "time": 1462,
+      "hero": "Dragon Knight",
+      "account_id": 214684991,
+      "value": 3
+    },
+    {
+      "event_id": "buyback:6af7fdde2652c8d2ed62307e",
+      "type": "buyback",
+      "time": 1463,
+      "hero": "Axe",
+      "account_id": 353416760,
+      "cost": 0
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed623053",
+      "type": "hero_kill",
+      "time": 1468,
+      "attacker": "Shadow Fiend",
+      "target": "Zeus",
+      "kill_from_radiant": 1,
+      "killer_account_id": 247894525,
+      "gold": 698,
+      "xp": 4572
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62307c",
+      "type": "hero_kill",
+      "time": 1469,
+      "attacker": "Dragon Knight",
+      "target": "Witch Doctor",
+      "kill_from_radiant": 0,
+      "killer_account_id": 214684991,
+      "gold": 666,
+      "xp": 5409
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c83",
+      "type": "kill_streak",
+      "time": 1469,
+      "hero": "Dragon Knight",
+      "account_id": 214684991,
+      "value": 4
+    },
+    {
+      "event_id": "streak:6af7fdde2652c8d2ed625c84",
+      "type": "multi_kill",
+      "time": 1469,
+      "hero": "Dragon Knight",
+      "account_id": 214684991,
+      "value": 2
+    },
+    {
+      "event_id": "kill:6af7fdde2652c8d2ed62304c",
+      "type": "hero_kill",
+      "time": 1479,
+      "attacker": "Witch Doctor",
+      "target": "Dragon Knight",
+      "kill_from_radiant": 1,
+      "killer_account_id": 116914948,
+      "gold": 930
+    },
+    {
+      "event_id": "tower_destroyed:6af7fddf2652c8d2ed6272d1",
+      "type": "tower_destroyed",
+      "time": 1492,
+      "radiant_mask": 131071,
+      "dire_mask": 7
+    }
+  ]
+}

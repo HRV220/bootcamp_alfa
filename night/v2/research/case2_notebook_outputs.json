@@ -1,0 +1,685 @@
+{
+  "method": "Read saved outputs, AST parse only; no notebook code executed",
+  "syntax_errors": [
+    {
+      "cell_index": 5,
+      "line": 34,
+      "error": "invalid syntax",
+      "source": "    return df d\n"
+    }
+  ],
+  "csv": {
+    "rows": 87,
+    "matches": 87,
+    "accounts": 6,
+    "labels": {
+      "1": 87
+    },
+    "wins": 77,
+    "empty_all": [
+      "rank",
+      "calibration",
+      "rank_known",
+      "tier",
+      "kda_c",
+      "farm_pos",
+      "perf_z"
+    ]
+  },
+  "source_sha256": {
+    "2.1.png": "d5d49429981069b558522140bdc9c3060f28aea12af25de53be3fe8216d5c390",
+    "2.2.png": "4c6f5bae783d28be9343a73d0e8cd782c631f9293b1ebe057dd077a869e5fa30",
+    "2.3.png": "55e5e7aa4120673c265ae72b890e43c7b21d04ea7d38c668eb4166d816265d37",
+    "2.4.png": "1ae8d2c9945113b9fb5fc4d1ec46b057442aec4d340b4b192224b315c591047b",
+    "case2_selection_and_hypothesis.md": "74fa8a30bee506573fd54ba915e21ca01dc68d6cfd5b6e6649f80057de8544ad",
+    "er_logical.md": "1083eeb3bee6b08244ef3a8a9775c4689c03f42c52f299e17e0016a7fc333eba",
+    "er_logical.mmd": "9d1a77fbea208747d0f890144e0a296c47248a07867377ce5bd89a4a3af410ac",
+    "er_physical.md": "6ce25e89aae27dac7fce9856ecf2fc9c34a691f225c87e3c8cc2f76f1c632bbd",
+    "er_physical.mmd": "b40576cab67e40036938843b170f81274c8ec1594d736af0e1c3591ba8dabdd3",
+    "lineage1.png": "374093ea1970bcf85dfa6b91763663dfa01ae5abccdd7a364288d12d9a64c430",
+    "README.md": "077f6fca8594b4b0c26975b215635dc280ec459dea80c95384aba88040ff1137",
+    "smurf_pipeline_fixed_with_outputs_1__1.ipynb": "2921cbff6ac3060a5f49ab3a62887b7840635df436ccb91c4f2eee17f9879e8d",
+    "smurf_players.csv": "68da5dec95f23e55ebbb8a4cfd175063a415ab26e849ac1cdc05b477f68ef7a5",
+    "stage.sql": "42f3f9df00b1ce7be734f4808a6a44bcb0ae88a872608e5f4e80d00c502aaa10"
+  },
+  "code_cell_outputs": [
+    {
+      "cell_index": 1,
+      "execution_count": 1,
+      "outputs": [
+        {
+          "name": "stderr",
+          "output_type": "stream",
+          "text": [
+            "/usr/local/lib/python3.12/dist-packages/tqdm/auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html\n",
+            "  from .autonotebook import tqdm as notebook_tqdm\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_index": 3,
+      "execution_count": 2,
+      "outputs": []
+    },
+    {
+      "cell_index": 5,
+      "execution_count": 3,
+      "outputs": []
+    },
+    {
+      "cell_index": 7,
+      "execution_count": 4,
+      "outputs": []
+    },
+    {
+      "cell_index": 9,
+      "execution_count": 5,
+      "outputs": []
+    },
+    {
+      "cell_index": 11,
+      "execution_count": 6,
+      "outputs": []
+    },
+    {
+      "cell_index": 12,
+      "execution_count": 7,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "{'train': 26663, 'val': 6674, 'test': 8336} | доля смурфов train/val/test: 1.853% / 1.798% / 1.943%\n",
+            "признаки: ['hero_id', 'item_0', 'item_1', 'item_2', 'item_3', 'item_4', 'item_5', 'backpack_0', 'backpack_1', 'backpack_2', 'item_neutral', 'kills', 'deaths', 'assists', 'kda', 'gold', 'gold_per_min', 'xp_per_min', 'gold_spent', 'net_worth', 'hero_damage', 'tower_damage', 'hero_healing', 'level', 'last_hits', 'denies', 'is_radiant', 'win', 'aghanims_scepter', 'aghanims_shard'] \n",
+            "\n",
+            "Одиночный AUC, топ-10:\n",
+            "xp_per_min      0.9425\n",
+            "gold_per_min    0.9350\n",
+            "level           0.8940\n",
+            "net_worth       0.8699\n",
+            "gold_spent      0.8491\n",
+            "gold            0.7647\n",
+            "kda             0.7431\n",
+            "hero_damage     0.7110\n",
+            "win             0.6709\n",
+            "deaths          0.6651\n",
+            "\n",
+            "⚠ подозрительно сильные признаки: ['xp_per_min', 'gold_per_min']\n"
+          ]
+        },
+        {
+          "execution_count": 7,
+          "metadata": {},
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>f1</th>\n",
+              "      <th>precision</th>\n",
+              "      <th>recall</th>\n",
+              "      <th>roc_auc</th>\n",
+              "      <th>pr_auc</th>\n",
+              "      <th>best_iter</th>\n",
+              "      <th>thr</th>\n",
+              "      <th>n_test</th>\n",
+              "      <th>n_test_pos</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>0.4138</td>\n",
+              "      <td>0.3871</td>\n",
+              "      <td>0.4444</td>\n",
+              "      <td>0.9635</td>\n",
+              "      <td>0.3872</td>\n",
+              "      <td>59</td>\n",
+              "      <td>0.18</td>\n",
+              "      <td>8336</td>\n",
+              "      <td>162</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "       f1  precision  recall  roc_auc  pr_auc  best_iter   thr  n_test  \\\n",
+              "0  0.4138     0.3871  0.4444   0.9635  0.3872         59  0.18    8336   \n",
+              "\n",
+              "   n_test_pos  \n",
+              "0         162  "
+            ]
+          },
+          "image_mime_types": []
+        }
+      ]
+    },
+    {
+      "cell_index": 14,
+      "execution_count": 8,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "фолды (размер / смурфов): [(11113, 205), (11112, 204), (11112, 205)]\n"
+          ]
+        },
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "trial   0 | value=0.3739 | best=0.3739\n"
+          ]
+        },
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "trial   5 | value=0.3444 | best=0.3739\n"
+          ]
+        },
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "trial  10 | value=0.3828 | best=0.3828\n"
+          ]
+        },
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "trial  15 | value=0.3772 | best=0.3869\n"
+          ]
+        },
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "trial  20 | value=0.3840 | best=0.3869\n"
+          ]
+        },
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "trial  25 | value=0.3776 | best=0.3901\n",
+            "\n",
+            "завершено: 20, отсечено: 6\n",
+            "CV PR-AUC базовой конфигурации: 0.3739\n",
+            "CV PR-AUC лучшей конфигурации:  0.3901  (trial 24)\n",
+            "лучшие параметры: {'depth': 4, 'learning_rate': 0.024856325057875408, 'l2_leaf_reg': 23.68628729192739, 'random_strength': 8.173353283643506, 'bagging_temperature': 2.1143222215710393, 'rsm': 0.7609089777994518, 'border_count': 254, 'auto_class_weights': 'SqrtBalanced'}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_index": 15,
+      "execution_count": 9,
+      "outputs": [
+        {
+          "metadata": {},
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<Figure size 640x480 with 1 Axes>"
+            ]
+          },
+          "image_mime_types": [
+            "image/png"
+          ]
+        },
+        {
+          "metadata": {},
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<Figure size 640x480 with 1 Axes>"
+            ]
+          },
+          "image_mime_types": [
+            "image/png"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_index": 17,
+      "execution_count": 10,
+      "outputs": [
+        {
+          "metadata": {},
+          "output_type": "display_data",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>f1</th>\n",
+              "      <th>precision</th>\n",
+              "      <th>recall</th>\n",
+              "      <th>roc_auc</th>\n",
+              "      <th>pr_auc</th>\n",
+              "      <th>best_iter</th>\n",
+              "      <th>thr</th>\n",
+              "      <th>n_test</th>\n",
+              "      <th>n_test_pos</th>\n",
+              "      <th>PR-AUC 95% CI</th>\n",
+              "      <th>F1 95% CI</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>baseline</th>\n",
+              "      <td>0.413793</td>\n",
+              "      <td>0.387097</td>\n",
+              "      <td>0.444444</td>\n",
+              "      <td>0.96348</td>\n",
+              "      <td>0.387234</td>\n",
+              "      <td>59</td>\n",
+              "      <td>0.18</td>\n",
+              "      <td>8336</td>\n",
+              "      <td>162</td>\n",
+              "      <td>[0.315; 0.471]</td>\n",
+              "      <td>[0.346; 0.480]</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>optuna</th>\n",
+              "      <td>0.343643</td>\n",
+              "      <td>0.387597</td>\n",
+              "      <td>0.308642</td>\n",
+              "      <td>0.965324</td>\n",
+              "      <td>0.387965</td>\n",
+              "      <td>548</td>\n",
+              "      <td>0.65</td>\n",
+              "      <td>8336</td>\n",
+              "      <td>162</td>\n",
+              "      <td>[0.313; 0.472]</td>\n",
+              "      <td>[0.274; 0.407]</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "                f1 precision    recall   roc_auc    pr_auc best_iter   thr  \\\n",
+              "baseline  0.413793  0.387097  0.444444   0.96348  0.387234        59  0.18   \n",
+              "optuna    0.343643  0.387597  0.308642  0.965324  0.387965       548  0.65   \n",
+              "\n",
+              "         n_test n_test_pos   PR-AUC 95% CI       F1 95% CI  \n",
+              "baseline   8336        162  [0.315; 0.471]  [0.346; 0.480]  \n",
+              "optuna     8336        162  [0.313; 0.472]  [0.274; 0.407]  "
+            ]
+          },
+          "image_mime_types": []
+        }
+      ]
+    },
+    {
+      "cell_index": 19,
+      "execution_count": 11,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "162 смурфов + 4000 случайных не-смурфов; графики — в лог-оддсах класса «смурф»\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_index": 20,
+      "execution_count": 12,
+      "outputs": [
+        {
+          "metadata": {},
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<Figure size 800x750 with 1 Axes>"
+            ]
+          },
+          "image_mime_types": [
+            "image/png"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_index": 21,
+      "execution_count": 13,
+      "outputs": [
+        {
+          "metadata": {},
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<Figure size 800x750 with 2 Axes>"
+            ]
+          },
+          "image_mime_types": [
+            "image/png"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_index": 22,
+      "execution_count": 14,
+      "outputs": [
+        {
+          "metadata": {},
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<Figure size 750x500 with 2 Axes>"
+            ]
+          },
+          "image_mime_types": [
+            "image/png"
+          ]
+        },
+        {
+          "metadata": {},
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<Figure size 750x500 with 2 Axes>"
+            ]
+          },
+          "image_mime_types": [
+            "image/png"
+          ]
+        },
+        {
+          "metadata": {},
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<Figure size 750x500 with 2 Axes>"
+            ]
+          },
+          "image_mime_types": [
+            "image/png"
+          ]
+        },
+        {
+          "execution_count": 14,
+          "metadata": {},
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>mean|SHAP|</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>gold_per_min</th>\n",
+              "      <td>0.769</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>xp_per_min</th>\n",
+              "      <td>0.599</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>kda</th>\n",
+              "      <td>0.292</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>win</th>\n",
+              "      <td>0.236</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>hero_damage</th>\n",
+              "      <td>0.232</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>level</th>\n",
+              "      <td>0.229</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>assists</th>\n",
+              "      <td>0.223</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>gold_spent</th>\n",
+              "      <td>0.141</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>last_hits</th>\n",
+              "      <td>0.134</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>deaths</th>\n",
+              "      <td>0.110</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "              mean|SHAP|\n",
+              "gold_per_min       0.769\n",
+              "xp_per_min         0.599\n",
+              "kda                0.292\n",
+              "win                0.236\n",
+              "hero_damage        0.232\n",
+              "level              0.229\n",
+              "assists            0.223\n",
+              "gold_spent         0.141\n",
+              "last_hits          0.134\n",
+              "deaths             0.110"
+            ]
+          },
+          "image_mime_types": []
+        }
+      ]
+    },
+    {
+      "cell_index": 23,
+      "execution_count": 15,
+      "outputs": [
+        {
+          "metadata": {},
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<Figure size 800x750 with 3 Axes>"
+            ]
+          },
+          "image_mime_types": [
+            "image/png"
+          ]
+        },
+        {
+          "metadata": {},
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<Figure size 800x750 with 3 Axes>"
+            ]
+          },
+          "image_mime_types": [
+            "image/png"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_index": 25,
+      "execution_count": 16,
+      "outputs": [
+        {
+          "execution_count": 16,
+          "metadata": {},
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>f1</th>\n",
+              "      <th>precision</th>\n",
+              "      <th>recall</th>\n",
+              "      <th>roc_auc</th>\n",
+              "      <th>pr_auc</th>\n",
+              "      <th>best_iter</th>\n",
+              "      <th>thr</th>\n",
+              "      <th>n_test</th>\n",
+              "      <th>n_test_pos</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>full_raw / без ранга</th>\n",
+              "      <td>0.4138</td>\n",
+              "      <td>0.3871</td>\n",
+              "      <td>0.4444</td>\n",
+              "      <td>0.9635</td>\n",
+              "      <td>0.3872</td>\n",
+              "      <td>59.0</td>\n",
+              "      <td>0.18</td>\n",
+              "      <td>8336.0</td>\n",
+              "      <td>162.0</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>full_raw / с рангом</th>\n",
+              "      <td>0.5606</td>\n",
+              "      <td>0.4976</td>\n",
+              "      <td>0.6420</td>\n",
+              "      <td>0.9801</td>\n",
+              "      <td>0.6031</td>\n",
+              "      <td>75.0</td>\n",
+              "      <td>0.22</td>\n",
+              "      <td>8336.0</td>\n",
+              "      <td>162.0</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>no_label_inputs / без ранга</th>\n",
+              "      <td>0.1769</td>\n",
+              "      <td>0.1250</td>\n",
+              "      <td>0.3025</td>\n",
+              "      <td>0.8439</td>\n",
+              "      <td>0.1010</td>\n",
+              "      <td>204.0</td>\n",
+              "      <td>0.07</td>\n",
+              "      <td>8336.0</td>\n",
+              "      <td>162.0</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>full_raw / unranked как 0</th>\n",
+              "      <td>0.2078</td>\n",
+              "      <td>0.2092</td>\n",
+              "      <td>0.2065</td>\n",
+              "      <td>0.9742</td>\n",
+              "      <td>0.1860</td>\n",
+              "      <td>111.0</td>\n",
+              "      <td>0.18</td>\n",
+              "      <td>25615.0</td>\n",
+              "      <td>155.0</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "                                 f1  precision  recall  roc_auc  pr_auc  \\\n",
+              "full_raw / без ранга         0.4138     0.3871  0.4444   0.9635  0.3872   \n",
+              "full_raw / с рангом          0.5606     0.4976  0.6420   0.9801  0.6031   \n",
+              "no_label_inputs / без ранга  0.1769     0.1250  0.3025   0.8439  0.1010   \n",
+              "full_raw / unranked как 0    0.2078     0.2092  0.2065   0.9742  0.1860   \n",
+              "\n",
+              "                             best_iter   thr   n_test  n_test_pos  \n",
+              "full_raw / без ранга              59.0  0.18   8336.0       162.0  \n",
+              "full_raw / с рангом               75.0  0.22   8336.0       162.0  \n",
+              "no_label_inputs / без ранга      204.0  0.07   8336.0       162.0  \n",
+              "full_raw / unranked как 0        111.0  0.18  25615.0       155.0  "
+            ]
+          },
+          "image_mime_types": []
+        }
+      ]
+    },
+    {
+      "cell_index": 27,
+      "execution_count": 17,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "строк сравнено: 41673 | совпадение smurf: 1.0000 | max|Δperf_z|: 4.44e-16\n"
+          ]
+        }
+      ]
+    }
+  ]
+}

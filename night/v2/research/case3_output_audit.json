@@ -1,0 +1,43 @@
+{
+  "notebook_sha256": "82ac9440262d38facfc0dc567cfbb02ee101dc815b4b8b96ade2c5d69f15e669",
+  "match_id": 9045752693,
+  "input_count": 181,
+  "output_count": 181,
+  "types": {
+    "hero_kill": 60,
+    "multi_kill": 11,
+    "item_purchase": 66,
+    "kill_streak": 16,
+    "tower_destroyed": 26,
+    "buyback": 2
+  },
+  "time_min": 15,
+  "time_max": 1492,
+  "unique_input_ids": 181,
+  "unique_output_ids": 180,
+  "positional_id_mismatch_count": 4,
+  "missing_ids": [
+    "purchase:6af7fdde2652c8d2ed622fd8",
+    "purchase:6af7fdde2652c8d2ed622f7b",
+    "purchase:6af7fdde2652c8d2ed622f4c",
+    "purchase:6af7fdde2652c8d2ed622ed5"
+  ],
+  "extra_ids": [
+    "purchase:6af7fdde2652c8d2ed622f7",
+    "purchase:6af7fdde2652c8d2ed622f4b",
+    "purchase:6af7fdde2652c8d2ed622f4a"
+  ],
+  "stage_counts": {
+    "laning": 40,
+    "early": 141
+  },
+  "first_response_timestamp_check": {
+    "regex": "(?<!\\d)(\\d+):(\\d{2})(?!\\d)",
+    "well_formed": 168,
+    "incomplete_or_absent": 13,
+    "mismatch_among_well_formed": 0,
+    "scope": "first detected timestamp per description at same input position; not semantic factual accuracy"
+  },
+  "summary_paragraphs": 4,
+  "allowed_nonempty_stages": 2
+}
