@@ -1,0 +1,2115 @@
+[
+  {
+    "slide": "ppt/slides/slide1.xml",
+    "shapes": [
+      {
+        "name": {
+          "id": "1139667145",
+          "name": "PlaceHolder 1"
+        },
+        "geometry_inches": {
+          "off": {
+            "x": 1.6665,
+            "y": 1.2276
+          },
+          "ext": {
+            "cx": 9.9988,
+            "cy": 2.6098
+          }
+        },
+        "paragraphs": [
+          {
+            "pPr": {
+              "indent": "0",
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Буткэмп по Дата инженерии",
+                "rPr": {
+                  "sz": "3600",
+                  "b": "0",
+                  "strike": "noStrike",
+                  "spc": "0"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "000000"
+                }
+              },
+              {
+                "text": "Анализ данных Dota 2 Кейс(ы) – №..",
+                "rPr": {
+                  "sz": "3600",
+                  "b": "0",
+                  "strike": "noStrike",
+                  "spc": "0"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "000000"
+                }
+              },
+              {
+                "text": "Томск 12-15 ноября",
+                "rPr": {
+                  "sz": "3600",
+                  "b": "0",
+                  "strike": "noStrike",
+                  "spc": "0"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "000000"
+                }
+              },
+              {
+                "text": "Команда «»",
+                "rPr": {
+                  "sz": "3600",
+                  "b": "0",
+                  "strike": "noStrike",
+                  "spc": "0"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "000000"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": {
+          "id": "978355816",
+          "name": "PlaceHolder 2"
+        },
+        "geometry_inches": {
+          "off": {
+            "x": 1.6665,
+            "y": 3.9394
+          },
+          "ext": {
+            "cx": 9.9988,
+            "cy": 1.8094
+          }
+        },
+        "paragraphs": [
+          {
+            "pPr": {
+              "indent": "0",
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "ФИО – роль",
+                "rPr": {
+                  "sz": "2400",
+                  "b": "0",
+                  "strike": "noStrike",
+                  "spc": "0"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "000000"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "indent": "0",
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "ФИО – роль",
+                "rPr": {
+                  "lang": "ru-RU",
+                  "sz": "2400",
+                  "b": "0",
+                  "i": "0",
+                  "u": "none",
+                  "strike": "noStrike",
+                  "cap": "none",
+                  "spc": "0"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "000000"
+                }
+              },
+              {
+                "text": " ",
+                "rPr": {
+                  "lang": "ru-RU",
+                  "sz": "2400",
+                  "b": "0",
+                  "i": "0",
+                  "u": "none",
+                  "strike": "noStrike",
+                  "cap": "none",
+                  "spc": "0"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "000000"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "indent": "0",
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "ФИО – роль",
+                "rPr": {
+                  "lang": "ru-RU",
+                  "sz": "2400",
+                  "b": "0",
+                  "i": "0",
+                  "u": "none",
+                  "strike": "noStrike",
+                  "cap": "none",
+                  "spc": "0"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "000000"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "indent": "0",
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "ФИО – роль",
+                "rPr": {
+                  "lang": "ru-RU",
+                  "sz": "2400",
+                  "b": "0",
+                  "i": "0",
+                  "u": "none",
+                  "strike": "noStrike",
+                  "cap": "none",
+                  "spc": "0"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "000000"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slide": "ppt/slides/slide2.xml",
+    "shapes": [
+      {
+        "name": {
+          "id": "47",
+          "name": "PlaceHolder 1"
+        },
+        "geometry_inches": {
+          "off": {
+            "x": 1.6665,
+            "y": 1.2276
+          },
+          "ext": {
+            "cx": 9.9988,
+            "cy": 2.6098
+          }
+        },
+        "paragraphs": [
+          {
+            "pPr": {
+              "indent": "0",
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Задача",
+                "rPr": {
+                  "sz": "3600",
+                  "b": "1",
+                  "strike": "noStrike",
+                  "spc": "-1"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "000000"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": {
+          "id": "48",
+          "name": "PlaceHolder 2"
+        },
+        "geometry_inches": {
+          "off": {
+            "x": 1.6665,
+            "y": 3.9394
+          },
+          "ext": {
+            "cx": 9.9988,
+            "cy": 1.8094
+          }
+        },
+        "paragraphs": [
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "2–3 предложения — какую бизнес-проблему решаем и зачем заказчику результат.",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Что заполнить:",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              },
+              {
+                "text": " проблема → её влияние на бизнес → что должно измениться после решения.",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Комментарий: без технических деталей",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "0",
+                  "i": "1",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Критерий:",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              },
+              {
+                "text": " Постановка задачи (5 б.).",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slide": "ppt/slides/slide3.xml",
+    "shapes": [
+      {
+        "name": {
+          "id": "69895676",
+          "name": "PlaceHolder 1"
+        },
+        "geometry_inches": {
+          "off": {
+            "x": 1.6665,
+            "y": 1.2276
+          },
+          "ext": {
+            "cx": 9.9988,
+            "cy": 2.6098
+          }
+        },
+        "paragraphs": [
+          {
+            "pPr": {
+              "indent": "0",
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Бизнес-вопрос и гипотезы",
+                "rPr": {
+                  "sz": "3600",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": {
+          "id": "205614493",
+          "name": "PlaceHolder 2"
+        },
+        "geometry_inches": {
+          "off": {
+            "x": 1.6665,
+            "y": 3.9394
+          },
+          "ext": {
+            "cx": 9.9988,
+            "cy": 1.8094
+          }
+        },
+        "paragraphs": [
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Кейс + 2–4 гипотезы, каждая в формате «если…, то…, потому что…».",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Что заполнить:",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              },
+              {
+                "text": " для каждой гипотезы — какая метрика её проверяет и какие данные нужны.",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Комментарий: это самый частый провал — гипотезы есть, а чем их проверять — не сказано. Таблица «Гипотеза | Метрика | Данные» закрывает критерий на максимум.",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "0",
+                  "i": "1",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slide": "ppt/slides/slide4.xml",
+    "shapes": [
+      {
+        "name": {
+          "id": "1238388164",
+          "name": "PlaceHolder 1"
+        },
+        "geometry_inches": {
+          "off": {
+            "x": 1.6665,
+            "y": 1.2276
+          },
+          "ext": {
+            "cx": 9.9988,
+            "cy": 2.6098
+          }
+        },
+        "paragraphs": [
+          {
+            "pPr": {
+              "indent": "0",
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Данные",
+                "rPr": {
+                  "sz": "3600",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": {
+          "id": "1986087432",
+          "name": "PlaceHolder 2"
+        },
+        "geometry_inches": {
+          "off": {
+            "x": 1.6665,
+            "y": 3.9394
+          },
+          "ext": {
+            "cx": 9.9988,
+            "cy": 1.8094
+          }
+        },
+        "paragraphs": [
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Источники (PostgreSQL / MongoDB), какие сущности взяты, ER/DL-схема с ключами и направлениями связей.",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Что заполнить:",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              },
+              {
+                "text": " зачем каждый источник нужен; какие поля — ключи; какие особенности в данных найдены (пропуски, дубликаты, форматы, аномалии) и как решены.",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Комментарий: схему показывать целиком, но крупно — связи и ключи должны читаться. Отдельной строкой — «что исключили и почему».",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "0",
+                  "i": "1",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slide": "ppt/slides/slide5.xml",
+    "shapes": [
+      {
+        "name": {
+          "id": "1739618553",
+          "name": "PlaceHolder 1"
+        },
+        "geometry_inches": {
+          "off": {
+            "x": 1.6665,
+            "y": 1.2276
+          },
+          "ext": {
+            "cx": 9.9988,
+            "cy": 2.6098
+          }
+        },
+        "paragraphs": [
+          {
+            "pPr": {
+              "indent": "0",
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Архитектура",
+                "rPr": {
+                  "sz": "3600",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": {
+          "id": "1759216746",
+          "name": "PlaceHolder 2"
+        },
+        "geometry_inches": {
+          "off": {
+            "x": 1.6665,
+            "y": 3.9394
+          },
+          "ext": {
+            "cx": 9.9988,
+            "cy": 1.8094
+          }
+        },
+        "paragraphs": [
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Одна схема Postgres/Mongo → Airflow → Spark → Iceberg/MinIO → Trino → Superset со слоями RAW / STAGE / MART/ДАШ. Под схемой — компактная таблица «паспорт витрин»: витрина | SLA | частота обновления | объём | глубина хранения.",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Что заполнить:",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "что лежит в каждом слое (RAW — сырьё из источников, STAGE — очищенное и объединённое, MART — готово под запросы);",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "0",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "почему MART спроектирован именно так — под какие конкретные аналитические запросы;",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "0",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "явный Lineage ",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "0",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              },
+              {
+                "text": "линиями на самой схеме",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "0",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              },
+              {
+                "text": " от таблиц источников до витрин Superset;",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "0",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "паспорт каждой витрины под схемой",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "0",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slide": "ppt/slides/slide6.xml",
+    "shapes": [
+      {
+        "name": {
+          "id": "1214392796",
+          "name": "PlaceHolder 1"
+        },
+        "geometry_inches": {
+          "off": {
+            "x": 1.6673,
+            "y": 0.2692
+          },
+          "ext": {
+            "cx": 9.9988,
+            "cy": 0.8349
+          }
+        },
+        "paragraphs": [
+          {
+            "pPr": {
+              "indent": "0",
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "ETL",
+                "rPr": {
+                  "sz": "3600",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": {
+          "id": "153061574",
+          "name": "PlaceHolder 2"
+        },
+        "geometry_inches": {
+          "off": {
+            "x": 0.2302,
+            "y": 1.2188
+          },
+          "ext": {
+            "cx": 12.8438,
+            "cy": 5.273
+          }
+        },
+        "paragraphs": [
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Cхема «SQL в UI → автоматический DAG в Airflow → RAW → STAGE → MART» + 2 скриншота (экран UI с SQL и граф DAG) + таблица потоков + блок «Как проверяем, что ETL работает».",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Что заполнить:",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "легенда (1 строка): SQL пишется в UI, DAG создаётся автоматически, запуск по расписанию, команда работает с Airflow как пользователь — статус, логи, перезапуск;",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "0",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": []
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "процесс создания ETL:",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              },
+              {
+                "text": " как из SQL в UI получается поток (шаги: написать SQL → проверить на тестовой выборке → описать таблицу",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              },
+              {
+                "text": "→",
+                "rPr": {
+                  "lang": "ru-RU",
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none",
+                  "strike": "noStrike",
+                  "cap": "none",
+                  "spc": "0"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              },
+              {
+                "text": " сохранить → DAG сгенерирован → запуск по расписанию);",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "количество созданных потоков",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              },
+              {
+                "text": " (например, «реализовано N DAG-ов: M загрузочных, K трансформационных»);",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "таблица потоков (3–5 строк): поток | что делает | вход → выход | правило «нового» | расписание;",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "0",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Пример",
+                "rPr": {
+                  "sz": "1100",
+                  "b": "1"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": []
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": []
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": []
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": []
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": []
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": []
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": []
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "с какими проблемами столкнулись",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              },
+              {
+                "text": " (2–3 пункта: например, разные форматы дат в источниках, дубликаты в Mongo, нестабильное время ответа источника);",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "мониторинг и перезапуск:",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              },
+              {
+                "text": " статус в Airflow UI → Grid (все DAG зелёные за N дней); при падении — Log → traceback → перезапуск через Clear / Rerun; сверка row count на входе/выходе.",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "indent": "0",
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Комментарий:",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "0",
+                  "i": "1",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              },
+              {
+                "text": " не пересказывать SQL и не уходить во внутренности Airflow (trigger/sensor) — их строит платформа. Критерий закрывается тем, что видно: поток описан, инкремент определён, расписание есть, падение видно в логах, перезапуск возможен. Проблемы называть честно — это часть инженерной работы, а не минус. Частоту и глубину хранения не дублировать (они в паспорте витрин на слайде 4, здесь только ссылка). Чего нет (алерты, авто-тесты) — в «Рекомендации и развитие».",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "0",
+                  "i": "1",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slide": "ppt/slides/slide7.xml",
+    "shapes": [
+      {
+        "name": {
+          "id": "1991295027",
+          "name": "PlaceHolder 1"
+        },
+        "geometry_inches": {
+          "off": {
+            "x": 1.6665,
+            "y": 1.2276
+          },
+          "ext": {
+            "cx": 9.9988,
+            "cy": 2.6098
+          }
+        },
+        "paragraphs": [
+          {
+            "pPr": {
+              "indent": "0",
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Аналитика: проверка гипотез",
+                "rPr": {
+                  "lang": "ru-RU",
+                  "sz": "3600",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none",
+                  "strike": "noStrike",
+                  "cap": "none",
+                  "spc": "0"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": {
+          "id": "1152886152",
+          "name": "PlaceHolder 2"
+        },
+        "geometry_inches": {
+          "off": {
+            "x": 1.6665,
+            "y": 3.9394
+          },
+          "ext": {
+            "cx": 9.9988,
+            "cy": 1.8094
+          }
+        },
+        "paragraphs": [
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Таблица «Гипотеза | Метод проверки | Результат (подтверждена / опровергнута / недостаточно данных) | Ограничения».",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Что заполнить:",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              },
+              {
+                "text": " какие метрики считались, как учитывались выбросы и размер выборки, где проверялась статзначимость.",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Комментарий: опровергнутая гипотеза — не минус, а валидный результат. Главное — корректный метод и честный вывод.",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "0",
+                  "i": "1",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slide": "ppt/slides/slide8.xml",
+    "shapes": [
+      {
+        "name": {
+          "id": "343169678",
+          "name": "PlaceHolder 1"
+        },
+        "geometry_inches": {
+          "off": {
+            "x": 1.6665,
+            "y": 1.2276
+          },
+          "ext": {
+            "cx": 9.9988,
+            "cy": 2.6098
+          }
+        },
+        "paragraphs": [
+          {
+            "pPr": {
+              "indent": "0",
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Результаты (дашборд)",
+                "rPr": {
+                  "lang": "ru-RU",
+                  "sz": "3600",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none",
+                  "strike": "noStrike",
+                  "cap": "none",
+                  "spc": "0"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": {
+          "id": "629570720",
+          "name": "PlaceHolder 2"
+        },
+        "geometry_inches": {
+          "off": {
+            "x": 1.6665,
+            "y": 3.9394
+          },
+          "ext": {
+            "cx": 9.9988,
+            "cy": 1.8094
+          }
+        },
+        "paragraphs": [
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Скриншот(ы) Superset: сверху KPI, ниже графики, доказывающие/опровергающие гипотезы.",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Что заполнить:",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              },
+              {
+                "text": " 2–3 главных вывода, которые видны на графиках; подписать, какой график какую гипотезу закрывает.",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Комментарий: не вставлять весь дашборд мелко — 2–3 ключевых визуализации крупно. Проверка: человек со стороны должен сделать вывод без кода.",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "0",
+                  "i": "1",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slide": "ppt/slides/slide9.xml",
+    "shapes": [
+      {
+        "name": {
+          "id": "1406176561",
+          "name": "PlaceHolder 1"
+        },
+        "geometry_inches": {
+          "off": {
+            "x": 1.6665,
+            "y": 1.2276
+          },
+          "ext": {
+            "cx": 9.9988,
+            "cy": 2.6098
+          }
+        },
+        "paragraphs": [
+          {
+            "pPr": {
+              "indent": "0",
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Выводы",
+                "rPr": {
+                  "lang": "ru-RU",
+                  "sz": "3600",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none",
+                  "strike": "noStrike",
+                  "cap": "none",
+                  "spc": "0"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": {
+          "id": "477254247",
+          "name": "PlaceHolder 2"
+        },
+        "geometry_inches": {
+          "off": {
+            "x": 1.6665,
+            "y": 3.9394
+          },
+          "ext": {
+            "cx": 9.9988,
+            "cy": 1.8094
+          }
+        },
+        "paragraphs": [
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "3–5 пунктов «что узнал заказчик» — без пересказа графиков, только интерпретация.",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Что заполнить:",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              },
+              {
+                "text": " насколько надёжны выводы, какие допущения сделаны, какие ограничения исследования.",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Комментарий: здесь же — ответ на вопросы защиты «насколько надёжны выводы» и «какие ограничения». Если места мало — вынести в следующий слайд.",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "0",
+                  "i": "1",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slide": "ppt/slides/slide10.xml",
+    "shapes": [
+      {
+        "name": {
+          "id": "933030952",
+          "name": "PlaceHolder 1"
+        },
+        "geometry_inches": {
+          "off": {
+            "x": 1.6665,
+            "y": 1.2276
+          },
+          "ext": {
+            "cx": 9.9988,
+            "cy": 2.6098
+          }
+        },
+        "paragraphs": [
+          {
+            "pPr": {
+              "indent": "0",
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Рекомендации и развитие",
+                "rPr": {
+                  "lang": "ru-RU",
+                  "sz": "3600",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none",
+                  "strike": "noStrike",
+                  "cap": "none",
+                  "spc": "0"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": {
+          "id": "1092528505",
+          "name": "PlaceHolder 2"
+        },
+        "geometry_inches": {
+          "off": {
+            "x": 1.6665,
+            "y": 3.9394
+          },
+          "ext": {
+            "cx": 9.9988,
+            "cy": 1.8094
+          }
+        },
+        "paragraphs": [
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Конкретные действия для бизнеса на основе результатов + что улучшить в следующей версии решения.",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Что заполнить:",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              },
+              {
+                "text": " 2–3 рекомендации (что сделать, ожидаемый эффект) + 2–3 технических улучшения (например, расширить глубину хранения, автоматизировать алерты).",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "indent": "0",
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Комментарий: рекомендации должны вытекать из выводов, а не быть общими («улучшить качество данных» — плохо, «добавить обязательную валидацию поля X на входе» — хорошо).",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "0",
+                  "i": "1",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slide": "ppt/slides/slide11.xml",
+    "shapes": [
+      {
+        "name": {
+          "id": "1270843324",
+          "name": "PlaceHolder 1"
+        },
+        "geometry_inches": {
+          "off": {
+            "x": 1.6665,
+            "y": 1.2276
+          },
+          "ext": {
+            "cx": 9.9988,
+            "cy": 2.6098
+          }
+        },
+        "paragraphs": [
+          {
+            "pPr": {
+              "indent": "0",
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Командная работа",
+                "rPr": {
+                  "lang": "ru-RU",
+                  "sz": "3600",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none",
+                  "strike": "noStrike",
+                  "cap": "none",
+                  "spc": "0"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": {
+          "id": "298194370",
+          "name": "PlaceHolder 2"
+        },
+        "geometry_inches": {
+          "off": {
+            "x": 1.6665,
+            "y": 3.9394
+          },
+          "ext": {
+            "cx": 9.9988,
+            "cy": 1.8094
+          }
+        },
+        "paragraphs": [
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Таблица «Участник (по желанию контакты) | Роль | Что делал | Какое решение принимал | Как результат передавался следующему».",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Что заполнить:",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              },
+              {
+                "text": " показать стыки ролей — где БА передал требования DE, где DE отдал витрину аналитику.",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "1",
+                  "i": "0",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          },
+          {
+            "pPr": {
+              "algn": "ctr"
+            },
+            "runs": [
+              {
+                "text": "Комментарий: на защите каждый рассказывает свою часть, но отвечать на вопросы должен уметь по всему решению.",
+                "rPr": {
+                  "sz": "1200",
+                  "b": "0",
+                  "i": "1",
+                  "u": "none"
+                },
+                "font": {
+                  "typeface": "Liberation Sans"
+                },
+                "color": {
+                  "val": "0F1115"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

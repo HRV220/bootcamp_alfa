@@ -1,0 +1,133 @@
+{
+  "scope": "Local saved artifacts only; no night, cluster, training or LLM requests",
+  "case1": {
+    "source": "task/case1/1.1.png; manually transcribed rounded display values",
+    "early_winrate": 0.544,
+    "late_winrate": 0.4691,
+    "difference_pp": 7.49,
+    "target_pp": 3,
+    "displayed_target_reached": true,
+    "statistical_significance": "not assessed; underlying rows unavailable"
+  },
+  "case2": {
+    "syntax_errors": [
+      {
+        "cell_zero_based": 5,
+        "line": 34,
+        "message": "invalid syntax",
+        "text": "return df d"
+      }
+    ],
+    "csv_rows": 87,
+    "csv_accounts": 6,
+    "csv_matches": 87,
+    "csv_unique_keys": 87,
+    "csv_labels": {
+      "1": 87
+    },
+    "baseline_ap_source": "Saved output, cell index 17; not retrained",
+    "baseline_ap": 0.387234,
+    "test_positive_prevalence": 0.019433781190019195,
+    "ap_over_prevalence": 19.925818666666665,
+    "optuna_ap_difference": 0.0007309999999999817
+  },
+  "case3": {
+    "match_id": 9045752693,
+    "source_count": 181,
+    "source_unique_ids": 181,
+    "types": {
+      "hero_kill": 60,
+      "multi_kill": 11,
+      "item_purchase": 66,
+      "kill_streak": 16,
+      "tower_destroyed": 26,
+      "buyback": 2
+    },
+    "min_time_sec": 15,
+    "max_time_sec": 1492,
+    "source_sorted": true,
+    "response_count": 181,
+    "response_unique_ids": 180,
+    "missing_ids": [
+      "purchase:6af7fdde2652c8d2ed622ed5",
+      "purchase:6af7fdde2652c8d2ed622f4c",
+      "purchase:6af7fdde2652c8d2ed622f7b",
+      "purchase:6af7fdde2652c8d2ed622fd8"
+    ],
+    "extra_ids": [
+      "purchase:6af7fdde2652c8d2ed622f4a",
+      "purchase:6af7fdde2652c8d2ed622f4b",
+      "purchase:6af7fdde2652c8d2ed622f7"
+    ],
+    "duplicate_ids": [
+      "purchase:6af7fdde2652c8d2ed622edd"
+    ],
+    "id_position_mismatches": [
+      {
+        "position_zero_based": 17,
+        "source": {
+          "event_id": "purchase:6af7fdde2652c8d2ed622f4c",
+          "type": "item_purchase",
+          "time": 421,
+          "hero": "Axe",
+          "account_id": 353416760,
+          "item": "Blink Dagger",
+          "item_cost": 2250
+        },
+        "response": {
+          "event_id": "purchase:6af7fdde2652c8d2ed622f4a",
+          "description": "На 7:01 Axe купил Blink Dagger за 2250."
+        }
+      },
+      {
+        "position_zero_based": 29,
+        "source": {
+          "event_id": "purchase:6af7fdde2652c8d2ed622fd8",
+          "type": "item_purchase",
+          "time": 501,
+          "hero": "Rubick",
+          "account_id": 341106989,
+          "item": "Blink Dagger",
+          "item_cost": 2250
+        },
+        "response": {
+          "event_id": "purchase:6af7fdde2652c8d2ed622f4b",
+          "description": "На 8:21 Rubick купил Blink Dagger за 2250."
+        }
+      },
+      {
+        "position_zero_based": 46,
+        "source": {
+          "event_id": "purchase:6af7fdde2652c8d2ed622ed5",
+          "type": "item_purchase",
+          "time": 657,
+          "hero": "Monkey King",
+          "account_id": 107741011,
+          "item": "Echo Sabre",
+          "item_cost": 2700
+        },
+        "response": {
+          "event_id": "purchase:6af7fdde2652c8d2ed622edd",
+          "description": "На 11: - Monkey King купил Echo Sabre за 2700."
+        }
+      },
+      {
+        "position_zero_based": 110,
+        "source": {
+          "event_id": "purchase:6af7fdde2652c8d2ed622f7b",
+          "type": "item_purchase",
+          "time": 1250,
+          "hero": "Ogre Magi",
+          "account_id": 841238035,
+          "item": "Skull Basher",
+          "item_cost": 2875
+        },
+        "response": {
+          "event_id": "purchase:6af7fdde2652c8d2ed622f7",
+          "description": "На 21: - Ogre Magi купил Skull Basher за 2875."
+        }
+      }
+    ],
+    "note": "ID mismatches are not a measured factual-error rate of summary prose"
+  }
+}

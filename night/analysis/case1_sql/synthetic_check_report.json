@@ -1,0 +1,107 @@
+{
+  "scope": "Actual SQL SELECT logic on synthetic SQLite fixtures, table names mapped locally",
+  "cluster_execution": false,
+  "spark_trino_compatibility_verified": false,
+  "synthetic_raw_dominator_events": 41,
+  "checks": [
+    {
+      "check": "Every raw item-164 row retained without join multiplication",
+      "status": "pass"
+    },
+    {
+      "check": "Exactly the six expected valid buyer-match pairs survive",
+      "status": "pass"
+    },
+    {
+      "check": "Null, negative, after-end and >2 event pairs excluded in full",
+      "status": "pass"
+    },
+    {
+      "check": "Anonymous buyer retained only when unambiguous",
+      "status": "pass"
+    },
+    {
+      "check": "Conflicting match, slot, event ID and cross-item event ID quarantined",
+      "status": "pass"
+    },
+    {
+      "check": "Period is UTC start-inclusive and end-exclusive",
+      "status": "pass"
+    },
+    {
+      "check": "Missing keys/context, bot, inconsistent outcome and null mode excluded",
+      "status": "pass"
+    },
+    {
+      "check": "Unknown rank retained",
+      "status": "pass"
+    },
+    {
+      "check": "First event chosen after full-pair validation",
+      "status": "pass"
+    },
+    {
+      "check": "Even exact median equals 200 seconds",
+      "status": "pass"
+    },
+    {
+      "check": "Both sides and both timing groups can remain in one match",
+      "status": "pass"
+    },
+    {
+      "check": "History remains unknown and provisional",
+      "status": "pass"
+    },
+    {
+      "check": "Win rates use buyer denominators and percentage-point subtraction",
+      "status": "pass"
+    },
+    {
+      "check": "Quality report covers all retained events",
+      "status": "pass"
+    },
+    {
+      "check": "Excessive purchase count remains available in diagnostics",
+      "status": "pass"
+    },
+    {
+      "check": "Mixed stage generation within a pair excluded",
+      "status": "pass"
+    },
+    {
+      "check": "Mixed stage generation blocks the entire publication",
+      "status": "pass"
+    },
+    {
+      "check": "Odd median and boundary ties are exact",
+      "status": "pass"
+    },
+    {
+      "check": "Missing late group yields NULL rate, effect and target",
+      "status": "pass"
+    },
+    {
+      "check": "Empty input yields zero counts and NULL median/effect",
+      "status": "pass"
+    }
+  ],
+  "passed": 20,
+  "failed": 0,
+  "fixture_summary_do_not_use_as_real_result": {
+    "buyers_count": 6,
+    "matches_count": 5,
+    "median_purchase_time_sec": 200.0,
+    "early_n": 3,
+    "late_n": 3,
+    "early_wins": 3,
+    "late_wins": 1,
+    "source_mart_loaded_at_min": "2026-11-13 19:47:13",
+    "source_mart_loaded_at_max": "2026-11-13 19:47:13",
+    "early_win_rate_pct": 100.0,
+    "late_win_rate_pct": 33.333333333333336,
+    "win_rate_diff_pp": 66.66666666666666,
+    "target_diff_pp": 3.0,
+    "target_reached": 1,
+    "summary_loaded_at": "2026-11-13 19:47:13"
+  }
+}

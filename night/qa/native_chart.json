@@ -1,0 +1,45 @@
+{
+  "claim_boundary": "OOXML/workbook structural validation only; source provenance and native PowerPoint opening remain separate checks.",
+  "expected_quantitative_chart_slides": [
+    8
+  ],
+  "failed_slide_count": 0,
+  "failed_slides": [],
+  "formal_human_reviewed": false,
+  "native_application_open_verified": false,
+  "package_sha256": "d1af48ab7a55efd0d518ef073ccab835cf5d91e6e4f5291b419ef2fce43a69cc",
+  "passed": true,
+  "required_embedded_workbook_slides": [
+    8
+  ],
+  "results": [
+    {
+      "approved_source_figure_exception": false,
+      "charts": [
+        {
+          "cache_reference_ranges_verified": true,
+          "embedded_workbook_count": 1,
+          "embedded_workbook_sheet_count": 1,
+          "native_chart_types": [
+            "barChart"
+          ],
+          "numeric_cache_point_count": 6,
+          "series_formula_count": 2,
+          "workbook_numeric_cell_count": 6
+        }
+      ],
+      "failure_codes": [],
+      "native_chart_count": 1,
+      "raster_picture_count": 0,
+      "required_native_chart_count": 1,
+      "slide_number": 8,
+      "status": "passed"
+    }
+  ],
+  "schema_version": "owner-private.quantitative-chart-native-gate.v1",
+  "slide_count": 11,
+  "source_attachments_accessed": false,
+  "target_application": "portable",
+  "validated_slide_count": 1,
+  "process_exit_code": 0
+}

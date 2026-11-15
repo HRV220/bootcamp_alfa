@@ -1,0 +1,14 @@
+﻿{
+    "application":  "Microsoft PowerPoint COM",
+    "input":  "D:\\ALL\\WK\\Batcamp\\night\\v2\\output\\Dota2_All_Cases_v2_simple.pptx",
+    "input_sha256":  "6946781ba48693757f634499c6fd177e21405f53c4bf15b2b5b54879661037cb",
+    "opened_read_only":  true,
+    "native_open_verified":  true,
+    "slides":  15,
+    "width":  960,
+    "height":  540,
+    "png_export_succeeded":  true,
+    "pdf_export_succeeded":  true,
+    "output":  "D:\\ALL\\WK\\Batcamp\\night\\v2\\qa\\simple",
+    "completed_utc":  "2026-11-14T14:11:51.0542866Z"
+}

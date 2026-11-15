@@ -1,0 +1,14 @@
+flowchart LR
+    PG["PostgreSQL: matches, match_players, items"] --> RAW["Iceberg / MinIO RAW: fixed snapshots"]
+    MG["MongoDB: purchase_events"] --> RAW
+    RAW --> E["STAGE: events + DQ"]
+    E --> F["First purchases: one buyer-match"]
+    F --> W["MART: exact median, groups, winrates, delta"]
+    W --> T["Trino"] --> S["Superset"]
+    CSV["CSV: 87 observations, 6 accounts"] --> PROF["Local descriptive profiles"]
+    HIST["Future: peer history + control"] -.-> ML["Project: candidate score"]
+    PROF -.-> ML
+    ML -.-> T
+    AF["Airflow schedules / Spark transforms"] -.-> E
+    AF -.-> F
+    AF -.-> W

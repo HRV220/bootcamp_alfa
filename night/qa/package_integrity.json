@@ -1,0 +1,11 @@
+{
+  "chart_count": 1,
+  "claim_boundary": "Structural package checks only; no slide text, notes, formulas, chart values, or native PowerPoint execution were inspected.",
+  "finding_count": 0,
+  "findings": [],
+  "notes_parts_skipped": 11,
+  "relationship_part_count": 39,
+  "slide_count": 11,
+  "status": "pass",
+  "process_exit_code": 0
+}

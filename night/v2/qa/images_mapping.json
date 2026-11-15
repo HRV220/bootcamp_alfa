@@ -1,0 +1,332 @@
+[
+  {
+    "slide": 1,
+    "source": "night/image/Alfa-Buduschee_01_krasny_1.png",
+    "crop_fraction": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sha256": "8a0a74e7ba6e82439769d5948976508c9297e58c7d95a3478d4f45aa852fc3d6"
+  },
+  {
+    "slide": 1,
+    "source": "night/image/Alfa_Bank_tabletka_belaya_1.png",
+    "crop_fraction": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sha256": "e3dd382c259d1a9a671c356640da3191e4332134f3932974de0a9c96fa94855f"
+  },
+  {
+    "slide": 2,
+    "source": "night/image/Alfa-Buduschee_01_krasny_1.png",
+    "crop_fraction": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sha256": "8a0a74e7ba6e82439769d5948976508c9297e58c7d95a3478d4f45aa852fc3d6"
+  },
+  {
+    "slide": 3,
+    "source": "night/image/Alfa-Buduschee_01_krasny_1.png",
+    "crop_fraction": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sha256": "8a0a74e7ba6e82439769d5948976508c9297e58c7d95a3478d4f45aa852fc3d6"
+  },
+  {
+    "slide": 4,
+    "source": "night/image/Alfa-Buduschee_01_krasny_1.png",
+    "crop_fraction": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sha256": "8a0a74e7ba6e82439769d5948976508c9297e58c7d95a3478d4f45aa852fc3d6"
+  },
+  {
+    "slide": 5,
+    "source": "night/image/Alfa-Buduschee_01_krasny_1.png",
+    "crop_fraction": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sha256": "8a0a74e7ba6e82439769d5948976508c9297e58c7d95a3478d4f45aa852fc3d6"
+  },
+  {
+    "slide": 6,
+    "source": "night/image/Alfa-Buduschee_01_krasny_1.png",
+    "crop_fraction": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sha256": "8a0a74e7ba6e82439769d5948976508c9297e58c7d95a3478d4f45aa852fc3d6"
+  },
+  {
+    "slide": 7,
+    "source": "night/image/Alfa-Buduschee_01_krasny_1.png",
+    "crop_fraction": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sha256": "8a0a74e7ba6e82439769d5948976508c9297e58c7d95a3478d4f45aa852fc3d6"
+  },
+  {
+    "slide": 8,
+    "source": "night/image/Alfa-Buduschee_01_krasny_1.png",
+    "crop_fraction": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sha256": "8a0a74e7ba6e82439769d5948976508c9297e58c7d95a3478d4f45aa852fc3d6"
+  },
+  {
+    "slide": 9,
+    "source": "night/image/Alfa-Buduschee_01_krasny_1.png",
+    "crop_fraction": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sha256": "8a0a74e7ba6e82439769d5948976508c9297e58c7d95a3478d4f45aa852fc3d6"
+  },
+  {
+    "slide": 10,
+    "source": "night/image/Alfa-Buduschee_01_krasny_1.png",
+    "crop_fraction": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sha256": "8a0a74e7ba6e82439769d5948976508c9297e58c7d95a3478d4f45aa852fc3d6"
+  },
+  {
+    "slide": 11,
+    "source": "night/image/Alfa-Buduschee_01_krasny_1.png",
+    "crop_fraction": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sha256": "8a0a74e7ba6e82439769d5948976508c9297e58c7d95a3478d4f45aa852fc3d6"
+  },
+  {
+    "slide": 12,
+    "source": "night/image/Alfa-Buduschee_01_krasny_1.png",
+    "crop_fraction": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sha256": "8a0a74e7ba6e82439769d5948976508c9297e58c7d95a3478d4f45aa852fc3d6"
+  },
+  {
+    "slide": 13,
+    "source": "night/image/Alfa-Buduschee_01_krasny_1.png",
+    "crop_fraction": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sha256": "8a0a74e7ba6e82439769d5948976508c9297e58c7d95a3478d4f45aa852fc3d6"
+  },
+  {
+    "slide": 14,
+    "source": "night/image/Alfa-Buduschee_01_krasny_1.png",
+    "crop_fraction": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sha256": "8a0a74e7ba6e82439769d5948976508c9297e58c7d95a3478d4f45aa852fc3d6"
+  },
+  {
+    "slide": 15,
+    "source": "night/image/Alfa-Buduschee_01_krasny_1.png",
+    "crop_fraction": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sha256": "8a0a74e7ba6e82439769d5948976508c9297e58c7d95a3478d4f45aa852fc3d6"
+  },
+  {
+    "slide": 16,
+    "source": "night/image/mermaid-diagram-2026-11-14-194153.png",
+    "crop_fraction": [
+      0,
+      0,
+      1,
+      0.52
+    ],
+    "sha256": "68acf2ef871397dbc56d2e4d135ef1f25d8129931a1c916f04137296d754c48a"
+  },
+  {
+    "slide": 16,
+    "source": "night/image/Alfa-Buduschee_01_krasny_1.png",
+    "crop_fraction": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sha256": "8a0a74e7ba6e82439769d5948976508c9297e58c7d95a3478d4f45aa852fc3d6"
+  },
+  {
+    "slide": 17,
+    "source": "night/image/mermaid-diagram-2026-11-14-194153.png",
+    "crop_fraction": [
+      0,
+      0.48,
+      1,
+      1
+    ],
+    "sha256": "68acf2ef871397dbc56d2e4d135ef1f25d8129931a1c916f04137296d754c48a"
+  },
+  {
+    "slide": 17,
+    "source": "night/image/Alfa-Buduschee_01_krasny_1.png",
+    "crop_fraction": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sha256": "8a0a74e7ba6e82439769d5948976508c9297e58c7d95a3478d4f45aa852fc3d6"
+  },
+  {
+    "slide": 18,
+    "source": "night/image/mermaid-diagram-2026-11-14-194146.png",
+    "crop_fraction": [
+      0.1,
+      0.52,
+      0.45,
+      0.73
+    ],
+    "sha256": "ed5b5df8bda1494941bbb256537890ebd74e90b16aa414453f58c688dab07300"
+  },
+  {
+    "slide": 18,
+    "source": "night/image/Alfa-Buduschee_01_krasny_1.png",
+    "crop_fraction": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sha256": "8a0a74e7ba6e82439769d5948976508c9297e58c7d95a3478d4f45aa852fc3d6"
+  },
+  {
+    "slide": 19,
+    "source": "night/image/mermaid-diagram-2026-11-14-194146.png",
+    "crop_fraction": [
+      0.64,
+      0,
+      1,
+      0.216
+    ],
+    "sha256": "ed5b5df8bda1494941bbb256537890ebd74e90b16aa414453f58c688dab07300"
+  },
+  {
+    "slide": 19,
+    "source": "night/image/Alfa-Buduschee_01_krasny_1.png",
+    "crop_fraction": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sha256": "8a0a74e7ba6e82439769d5948976508c9297e58c7d95a3478d4f45aa852fc3d6"
+  },
+  {
+    "slide": 20,
+    "source": "night/image/mermaid-diagram-2026-11-14-194411.png",
+    "crop_fraction": [
+      0,
+      0,
+      0.36,
+      1
+    ],
+    "sha256": "1d03f55a04d09a48e900b85b29d38b4a368114d61c3559de34b5dc51454309ff"
+  },
+  {
+    "slide": 20,
+    "source": "night/image/Alfa-Buduschee_01_krasny_1.png",
+    "crop_fraction": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sha256": "8a0a74e7ba6e82439769d5948976508c9297e58c7d95a3478d4f45aa852fc3d6"
+  },
+  {
+    "slide": 21,
+    "source": "night/image/mermaid-diagram-2026-11-14-194411.png",
+    "crop_fraction": [
+      0.35,
+      0,
+      0.75,
+      1
+    ],
+    "sha256": "1d03f55a04d09a48e900b85b29d38b4a368114d61c3559de34b5dc51454309ff"
+  },
+  {
+    "slide": 21,
+    "source": "night/image/Alfa-Buduschee_01_krasny_1.png",
+    "crop_fraction": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sha256": "8a0a74e7ba6e82439769d5948976508c9297e58c7d95a3478d4f45aa852fc3d6"
+  },
+  {
+    "slide": 22,
+    "source": "night/image/mermaid-diagram-2026-11-14-203234.png",
+    "crop_fraction": [
+      0.26,
+      0,
+      0.62,
+      0.44
+    ],
+    "sha256": "81f99c96cf549423bb2066644b928588a70adbaec4e53b641ae3a02d3f96e196"
+  },
+  {
+    "slide": 22,
+    "source": "night/image/Alfa-Buduschee_01_krasny_1.png",
+    "crop_fraction": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sha256": "8a0a74e7ba6e82439769d5948976508c9297e58c7d95a3478d4f45aa852fc3d6"
+  }
+]

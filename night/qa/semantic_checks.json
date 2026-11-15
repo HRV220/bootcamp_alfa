@@ -1,0 +1,47 @@
+{
+  "slide_count": 11,
+  "native_table_count": 6,
+  "native_table_slides": [
+    3,
+    5,
+    6,
+    7,
+    10,
+    11
+  ],
+  "speaker_notes_complete": true,
+  "out_of_canvas_objects": [],
+  "chart_counts": [
+    10,
+    30,
+    5,
+    9,
+    30,
+    3
+  ],
+  "embedded_workbook_counts": [
+    10,
+    30,
+    5,
+    9,
+    30,
+    3
+  ],
+  "chart_source_consistent": true,
+  "source_account_counts": {
+    "307275024": 10,
+    "726454100": 30,
+    "818013716": 5,
+    "826423518": 9,
+    "945403669": 30,
+    "970030081": 3
+  },
+  "chart_count_sum": 87,
+  "rendered_slide_count": 11,
+  "pdf_page_count": 11,
+  "pptx_sha256": "d1af48ab7a55efd0d518ef073ccab835cf5d91e6e4f5291b419ef2fce43a69cc",
+  "limits": [
+    "Geometry does not prove factual correctness. Independent visual review required.",
+    "No cluster execution, live SLA or ML model validation."
+  ]
+}

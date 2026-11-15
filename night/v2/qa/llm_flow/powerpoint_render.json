@@ -1,0 +1,14 @@
+﻿{
+    "application":  "Microsoft PowerPoint COM",
+    "input":  "D:\\ALL\\WK\\Batcamp\\night\\v2\\output\\Dota2_All_Cases_v2_llm_flow.pptx",
+    "input_sha256":  "f64354036e0f8f71df467d5b8a24b7808a535415f73e935fdcc486eb8a17601a",
+    "opened_read_only":  true,
+    "native_open_verified":  true,
+    "slides":  16,
+    "width":  960,
+    "height":  540,
+    "png_export_succeeded":  true,
+    "pdf_export_succeeded":  true,
+    "output":  "D:\\ALL\\WK\\Batcamp\\night\\v2\\qa\\llm_flow",
+    "completed_utc":  "2026-11-14T14:32:03.4979324Z"
+}

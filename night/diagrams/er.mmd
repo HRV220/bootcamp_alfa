@@ -1,0 +1,30 @@
+erDiagram
+    MATCHES ||--o{ MATCH_PLAYERS : match_id
+    MATCHES ||..o{ PURCHASE_EVENTS : match_id
+    ITEMS ||..o{ PURCHASE_EVENTS : itemid_equals_item_id
+    MATCH_PLAYERS ||..o{ PURCHASE_EVENTS : match_and_account_requires_unique_match
+    MATCHES {
+      bigint match_id PK
+      int start_time
+      int duration
+      boolean radiant_win
+    }
+    MATCH_PLAYERS {
+      bigint match_id PK,FK
+      int player_slot PK
+      bigint account_id
+      int hero_id
+      int rank
+      boolean win
+    }
+    PURCHASE_EVENTS {
+      string id PK
+      bigint match_id FK
+      bigint steam_account_id
+      int itemid FK
+      int time_seconds
+    }
+    ITEMS {
+      int item_id PK
+      string name
+    }

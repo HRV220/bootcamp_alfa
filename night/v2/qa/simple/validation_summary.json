@@ -1,0 +1,13 @@
+{
+  "slide_count": 15,
+  "plain_russian_tables": {
+    "3": true,
+    "13": true
+  },
+  "single_uncropped_common_er": true,
+  "old_appendix_removed": true,
+  "rendered_png_count": 15,
+  "pdf_page_count": 15,
+  "sha256": "6946781ba48693757f634499c6fd177e21405f53c4bf15b2b5b54879661037cb",
+  "passed": true
+}

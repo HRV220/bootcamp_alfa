@@ -1,0 +1,185 @@
+пусь нейронка решит куда правильнее линейдж вставить/ чтобы она скомпоновала все что я тебе выше скинул
+
+
+для отправки как цельный артефакт
+
+
+ETL и DG
+
+
+
+@harvi_220 
+
+Technical Specification & Data Product Passport: lakehouse.mart.dom_buyers1. Architecture & End-to-End Lineage (Marquis)The visual pipeline lineage extracted from the Lakehouse Portal / Marquis interface demonstrates the exact upstream dependencies and flow structure for the lakehouse.mart.dom_buyers dataset:Upstream Dependencies & Downstream FlowRAW Layer Sources:lakehouse.raw.pg__matches (PostgreSQL matches table via ingest_pg__match_...)lakehouse.raw.pg__match_players (PostgreSQL player slots via ingest_pg__match_...)lakehouse.raw.mongo__purchase_events (MongoDB item purchase events via ingest_mongo__purchase_events)STAGE Layer Transformations:lakehouse.stage.purchase_events_new (Filtered, validated, and deduplicated purchase events)lakehouse.stage.matches_fixed (Cleaned match durations, game modes, and lobby types)lakehouse.stage.match_players (Deduplicated player slots and account associations)MART Layer Target:lakehouse.mart.dom_buyers (Granularity: 1 row per player who purchased Helm of the Dominator with first-purchase timestamp extraction).2. Data Product Passport & Governance (DG)Metadata AttributeSpecification ValueDataset Path (S3)s3://warehouse/mart/dom_buyersStorage FormatApache IcebergResponsible AuthorКузьмин Антон ОлеговичDomain Teamdota_scienceGranularityOne row per player, per match, who purchased Helm of the Dominator (itemid = 164). If purchased multiple times, the first purchase (MIN(time)) is selected.Key Use CasesAnalysis of early purchase timing against the median threshold (is_early), performance slices by rank league, hero ID, and match duration buckets.Data Quality & Filtering Rules (DG)Hidden/Anonymous Account Purge: Excludes records with account_id IS NULL, 0, or the standard Steam null identifier (4294967295). Direct vs. hidden resolution is explicitly flagged via resolution (direct vs. hidden).Game Mode & Lobby Validation: Automatically inherits filtered valid matches from the STAGE layer, stripping out custom or event modes (game_mode IN (15, 18, 19, 20, 21, 23)) and restricted lobbies (lobby_type IN (1, 4, 8)).Audit Tracking: Injects system columns (job_id UUID, sys_insert_stamp, src_modified_stamp) for reliable lineage and incremental idempotency tracking.3. Apache Airflow Orchestration & SLADAG ID: mart__dom_buyersFile Location: /opt/airflow/dags/generated/mart__dom_buyers.pyScheduling Strategy: Event-Driven via Airflow Datasets (Dataset Conditions with all logical constraint on upstream STAGE tables: lakehouse://stage/match_players, lakehouse://stage/matches_fixed, lakehouse://stage/purchase_events_new).Task Structure: 3x PythonOperator (orchestration/validation) + 1x SparkSubmitOperator (distributed transformation).Execution Metrics: 100% success rate across monitored runs, average duration ~2 minutes 8 seconds.4. Physical Iceberg Schema (DDL)CREATE TABLE lakehouse.mart.dom_buyers (
+  match_id bigint,
+  steam_account_id bigint,
+  buy_time integer,
+  resolution varchar,
+  player_slot integer COMMENT 'Слот (0-127 Radiant, 128-255 Dire)',
+  hero_id integer COMMENT 'ID героя',
+  rank_raw integer COMMENT 'Ранг (1-80: 1-10=Herald, 11-20=Guardian, 21-30=Crusader, 31-40=Archon, 41-50=Legend, 51-60=Ancient, 61-70=Divine, 71-80=Immortal)',
+  league integer,
+  is_radiant boolean COMMENT 'true если в Radiant',
+  win integer,
+  duration integer COMMENT 'Длительность (сек)',
+  game_mode integer COMMENT 'ID режима игры',
+  lobby_type integer COMMENT 'ID типа лобби',
+  dur_bucket varchar,
+  buy_bucket varchar,
+  median_buy_sec integer,
+  is_early boolean,
+  job_id STRING COMMENT 'Идентификатор прогона загрузки (UUID)',
+  sys_insert_stamp TIMESTAMP COMMENT 'Время физической загрузки строки',
+  src_modified_stamp TIMESTAMP COMMENT 'Метка времени изменения в источнике'
+)
+
+
+WHERE itemid = 164
+      AND `time` >= 0
+    GROUP BY match_id, steam_account_id
+),
+players AS (
+    SELECT match_id, account_id, player_slot, hero_id, `rank` AS rank_raw, is_radiant, win
+    FROM (
+        SELECT mp.*,
+               row_number() OVER (
+                   PARTITION BY mp.match_id, mp.account_id
+                   ORDER BY mp.player_slot
+               ) AS rn
+        FROM lakehouse.stage.match_players mp
+        WHERE mp.account_id IS NOT NULL
+          AND mp.account_id <> 4294967295
+    )
+    WHERE rn = 1
+),
+j AS (
+    SELECT b.match_id,
+           b.steam_account_id,
+           b.buy_time,
+           p.player_slot,
+           p.hero_id,
+           p.rank_raw,
+           p.is_radiant,
+           p.win,
+           (p.match_id IS NOT NULL) AS is_direct,
+           m.duration,
+           m.game_mode,
+           m.lobby_type
+    FROM buys b
+    JOIN lakehouse.stage.matches_fixed m ON m.match_id = b.match_id
+    LEFT JOIN players p
+      ON p.match_id = b.match_id AND p.account_id = b.steam_account_id
+),
+med AS (
+    SELECT approx_percentile(buy_time, 0.5) AS median_sec
+    FROM j
+    WHERE is_direct
+)
+SELECT j.match_id,
+       j.steam_account_id,
+       j.buy_time,
+       CASE WHEN j.is_direct THEN 'direct' ELSE 'hidden' END AS resolution,
+       j.player_slot,
+       j.hero_id,
+       j.rank_raw,
+       CASE WHEN j.rank_raw IS NULL OR j.rank_raw = 0 THEN 0
+            ELSE CAST(floor((j.rank_raw - 1) / 10.0) + 1 AS integer) END AS league,
+       j.is_radiant,
+       CASE WHEN NOT j.is_direct THEN NULL
+            WHEN j.win THEN 1 ELSE 0 END                             AS win,
+       j.duration,
+       j.game_mode,
+       j.lobby_type,
+       CASE WHEN j.duration < 1800 THEN '1: <30 min'
+            WHEN j.duration < 2400 THEN '2: 30-40'
+            WHEN j.duration < 3000 THEN '3: 40-50'
+            ELSE '4: 50+' END                                        AS dur_bucket,
+       CASE WHEN j.buy_time < 360  THEN '1: <6'
+            WHEN j.buy_time < 480  THEN '2: 6-8'
+            WHEN j.buy_time < 600  THEN '3: 8-10'
+            WHEN j.buy_time < 720  THEN '4: 10-12'
+            WHEN j.buy_time < 900  THEN '5: 12-15'
+            WHEN j.buy_time < 1200 THEN '6: 15-20'
+            ELSE '7: 20+' END                                        AS buy_bucket,
+       med.median_sec                                                AS median_buy_sec,
+       CASE WHEN j.is_direct THEN j.buy_time <= med.median_sec END   AS is_early
+FROM j
+CROSS JOIN med;
+
+
+5. Transformation SQL Pipeline
+
+WITH buys AS (
+    SELECT match_id, steam_account_id, MIN(`time`) AS buy_time
+    FROM lakehouse.stage.purchase_events_new
+    WHERE itemid = 164
+      AND `time` >= 0
+    GROUP BY match_id, steam_account_id
+),
+players AS (
+    SELECT match_id, account_id, player_slot, hero_id, `rank` AS rank_raw, is_radiant, win
+    FROM (
+        SELECT mp.*,
+               row_number() OVER (
+                   PARTITION BY mp.match_id, mp.account_id
+                   ORDER BY mp.player_slot
+               ) AS rn
+        FROM lakehouse.stage.match_players mp
+        WHERE mp.account_id IS NOT NULL
+          AND mp.account_id <> 4294967295
+    )
+    WHERE rn = 1
+),
+j AS (
+    SELECT b.match_id,
+           b.steam_account_id,
+           b.buy_time,
+           p.player_slot,
+           p.hero_id,
+           p.rank_raw,
+           p.is_radiant,
+           p.win,
+           (p.match_id IS NOT NULL) AS is_direct,
+           m.duration,
+           m.game_mode,
+           m.lobby_type
+    FROM buys b
+    JOIN lakehouse.stage.matches_fixed m ON m.match_id = b.match_id
+    LEFT JOIN players p
+      ON p.match_id = b.match_id AND p.account_id = b.steam_account_id
+),
+med AS (
+    SELECT approx_percentile(buy_time, 0.5) AS median_sec
+    FROM j
+    WHERE is_direct
+)
+SELECT j.match_id,
+       j.steam_account_id,
+       j.buy_time,
+       CASE WHEN j.is_direct THEN 'direct' ELSE 'hidden' END AS resolution,
+       j.player_slot,
+       j.hero_id,
+       j.rank_raw,
+       CASE WHEN j.rank_raw IS NULL OR j.rank_raw = 0 THEN 0
+            ELSE CAST(floor((j.rank_raw - 1) / 10.0) + 1 AS integer) END AS league,
+       j.is_radiant,
+       CASE WHEN NOT j.is_direct THEN NULL
+            WHEN j.win THEN 1 ELSE 0 END                             AS win,
+       j.duration,
+       j.game_mode,
+       j.lobby_type,
+       CASE WHEN j.duration < 1800 THEN '1: <30 min'
+            WHEN j.duration < 2400 THEN '2: 30-40'
+            WHEN j.duration < 3000 THEN '3: 40-50'
+            ELSE '4: 50+' END                                        AS dur_bucket,
+       CASE WHEN j.buy_time < 360  THEN '1: <6'
+            WHEN j.buy_time < 480  THEN '2: 6-8'
+            WHEN j.buy_time < 600  THEN '3: 8-10'
+            WHEN j.buy_time < 720  THEN '4: 10-12'
+            WHEN j.buy_time < 900  THEN '5: 12-15'
+            WHEN j.buy_time < 1200 THEN '6: 15-20'
+            ELSE '7: 20+' END                                        AS buy_bucket,
+       med.median_sec                                                AS median_buy_sec,
+       CASE WHEN j.is_direct THEN j.buy_time <= med.median_sec END   AS is_early
+FROM j
+CROSS JOIN med;

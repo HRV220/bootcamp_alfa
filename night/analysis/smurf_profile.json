@@ -1,0 +1,672 @@
+{
+  "source": "task\\case2\\smurf_players.csv",
+  "source_sha256": "68da5dec95f23e55ebbb8a4cfd175063a415ab26e849ac1cdc05b477f68ef7a5",
+  "unit": "player-match observation",
+  "overall": {
+    "observations": 87,
+    "matches": 87,
+    "accounts": 6,
+    "wins": 77,
+    "win_rate_pct": 88.50574712643679,
+    "kills": {
+      "min": 1.0,
+      "median": 20.0,
+      "mean": 20.42528735632184,
+      "max": 47.0
+    },
+    "deaths": {
+      "min": 0.0,
+      "median": 3.0,
+      "mean": 4.103448275862069,
+      "max": 15.0
+    },
+    "assists": {
+      "min": 0.0,
+      "median": 11.0,
+      "mean": 11.689655172413794,
+      "max": 29.0
+    },
+    "kda": {
+      "min": 0.5,
+      "median": 9.333333333333334,
+      "mean": 13.863814250883216,
+      "max": 47.0
+    },
+    "gold_per_min": {
+      "min": 394.0,
+      "median": 711.0,
+      "mean": 716.8850574712644,
+      "max": 1089.0
+    },
+    "xp_per_min": {
+      "min": 346.0,
+      "median": 1046.0,
+      "mean": 1009.528735632184,
+      "max": 1594.0
+    },
+    "net_worth": {
+      "min": 8405.0,
+      "median": 24005.0,
+      "mean": 24194.19540229885,
+      "max": 45533.0
+    },
+    "hero_damage": {
+      "min": 1678.0,
+      "median": 38113.0,
+      "mean": 40991.63218390805,
+      "max": 110195.0
+    },
+    "tower_damage": {
+      "min": 0.0,
+      "median": 3620.0,
+      "mean": 5358.471264367816,
+      "max": 25490.0
+    },
+    "dur_min": {
+      "min": 15.433333333333334,
+      "median": 35.38333333333333,
+      "mean": 36.7183908045977,
+      "max": 66.68333333333334
+    },
+    "hd_pm": {
+      "min": 108.72570194384448,
+      "median": 1054.2251530852568,
+      "mean": 1101.261820594006,
+      "max": 1892.4612850082372
+    },
+    "lh_pm": {
+      "min": 1.8455366098294883,
+      "median": 6.612244897959184,
+      "mean": 7.238544126944453,
+      "max": 18.47088607594937
+    }
+  },
+  "columns": 46,
+  "missing_counts": {
+    "": 0,
+    "match_id": 0,
+    "player_slot": 0,
+    "account_id": 0,
+    "hero_id": 0,
+    "item_0": 0,
+    "item_1": 0,
+    "item_2": 0,
+    "item_3": 0,
+    "item_4": 0,
+    "item_5": 0,
+    "backpack_0": 0,
+    "backpack_1": 0,
+    "backpack_2": 0,
+    "item_neutral": 0,
+    "kills": 0,
+    "deaths": 0,
+    "assists": 0,
+    "kda": 0,
+    "gold": 0,
+    "gold_per_min": 0,
+    "xp_per_min": 0,
+    "gold_spent": 0,
+    "net_worth": 0,
+    "hero_damage": 0,
+    "tower_damage": 0,
+    "hero_healing": 0,
+    "level": 0,
+    "last_hits": 0,
+    "denies": 0,
+    "is_radiant": 0,
+    "win": 0,
+    "aghanims_scepter": 0,
+    "aghanims_shard": 0,
+    "rank": 87,
+    "calibration": 87,
+    "rank_known": 87,
+    "anon": 0,
+    "tier": 87,
+    "dur_min": 0,
+    "hd_pm": 0,
+    "lh_pm": 0,
+    "kda_c": 87,
+    "farm_pos": 87,
+    "perf_z": 87,
+    "smurf": 0
+  },
+  "label_counts": {
+    "1": 87
+  },
+  "duplicate_player_match_keys": 0,
+  "duplicate_account_match_keys": 0,
+  "duplicate_match_ids": 0,
+  "derived_formula_errors": [],
+  "hero_observations": {
+    "36": 3,
+    "48": 1,
+    "91": 2,
+    "145": 1,
+    "49": 1,
+    "12": 1,
+    "7": 2,
+    "155": 1,
+    "52": 1,
+    "11": 1,
+    "77": 1,
+    "113": 1,
+    "78": 1,
+    "101": 14,
+    "26": 14,
+    "45": 2,
+    "39": 4,
+    "85": 1,
+    "32": 3,
+    "112": 1,
+    "59": 2,
+    "138": 1,
+    "84": 1,
+    "79": 1,
+    "14": 2,
+    "19": 1,
+    "74": 1,
+    "86": 5,
+    "53": 1,
+    "62": 3,
+    "106": 3,
+    "25": 1,
+    "2": 1,
+    "97": 2,
+    "9": 1,
+    "71": 1,
+    "114": 1,
+    "47": 1,
+    "15": 1,
+    "17": 1
+  },
+  "descriptive_threshold_counts": {
+    "kda_gt_5": 66,
+    "gpm_gt_700": 46,
+    "kda_gt_5_and_gpm_gt_700": 41,
+    "note": "Row-level descriptions only; not a validated smurf classifier. Total account history is unknown."
+  },
+  "per_account": {
+    "307275024": {
+      "observations": 10,
+      "matches": 10,
+      "accounts": 1,
+      "wins": 9,
+      "win_rate_pct": 90.0,
+      "kills": {
+        "min": 2.0,
+        "median": 20.5,
+        "mean": 20.6,
+        "max": 40.0
+      },
+      "deaths": {
+        "min": 0.0,
+        "median": 3.5,
+        "mean": 4.2,
+        "max": 8.0
+      },
+      "assists": {
+        "min": 2.0,
+        "median": 8.5,
+        "mean": 8.9,
+        "max": 17.0
+      },
+      "kda": {
+        "min": 0.6666666666666666,
+        "median": 8.5,
+        "mean": 8.35,
+        "max": 14.333333333333334
+      },
+      "gold_per_min": {
+        "min": 512.0,
+        "median": 802.5,
+        "mean": 793.4,
+        "max": 1024.0
+      },
+      "xp_per_min": {
+        "min": 743.0,
+        "median": 1063.5,
+        "mean": 1090.4,
+        "max": 1550.0
+      },
+      "net_worth": {
+        "min": 14722.0,
+        "median": 23858.5,
+        "mean": 25198.9,
+        "max": 40113.0
+      },
+      "hero_damage": {
+        "min": 8333.0,
+        "median": 34599.0,
+        "mean": 39913.7,
+        "max": 95727.0
+      },
+      "tower_damage": {
+        "min": 0.0,
+        "median": 9603.0,
+        "mean": 8271.3,
+        "max": 15957.0
+      },
+      "dur_min": {
+        "min": 26.283333333333335,
+        "median": 34.06666666666666,
+        "mean": 35.50666666666667,
+        "max": 50.583333333333336
+      },
+      "hd_pm": {
+        "min": 268.95104895104896,
+        "median": 1069.8824480725225,
+        "mean": 1110.8146396349084,
+        "max": 1892.4612850082372
+      },
+      "lh_pm": {
+        "min": 5.740269188795925,
+        "median": 9.742092655791806,
+        "mean": 9.603787002262994,
+        "max": 14.542857142857143
+      }
+    },
+    "726454100": {
+      "observations": 30,
+      "matches": 30,
+      "accounts": 1,
+      "wins": 28,
+      "win_rate_pct": 93.33333333333333,
+      "kills": {
+        "min": 9.0,
+        "median": 21.0,
+        "mean": 22.466666666666665,
+        "max": 38.0
+      },
+      "deaths": {
+        "min": 0.0,
+        "median": 2.0,
+        "mean": 2.7,
+        "max": 10.0
+      },
+      "assists": {
+        "min": 5.0,
+        "median": 14.0,
+        "mean": 13.7,
+        "max": 26.0
+      },
+      "kda": {
+        "min": 2.4,
+        "median": 15.5,
+        "mean": 20.705,
+        "max": 47.0
+      },
+      "gold_per_min": {
+        "min": 504.0,
+        "median": 668.5,
+        "mean": 701.3333333333334,
+        "max": 1007.0
+      },
+      "xp_per_min": {
+        "min": 588.0,
+        "median": 942.0,
+        "mean": 943.8333333333334,
+        "max": 1584.0
+      },
+      "net_worth": {
+        "min": 11926.0,
+        "median": 21166.0,
+        "mean": 22268.833333333332,
+        "max": 33563.0
+      },
+      "hero_damage": {
+        "min": 14223.0,
+        "median": 37537.0,
+        "mean": 38254.2,
+        "max": 66282.0
+      },
+      "tower_damage": {
+        "min": 0.0,
+        "median": 2500.5,
+        "mean": 3491.366666666667,
+        "max": 15227.0
+      },
+      "dur_min": {
+        "min": 22.533333333333335,
+        "median": 32.40833333333333,
+        "mean": 34.44166666666667,
+        "max": 66.68333333333334
+      },
+      "hd_pm": {
+        "min": 558.5503624093976,
+        "median": 1049.467501931962,
+        "mean": 1117.8330587513187,
+        "max": 1844.5825602968462
+      },
+      "lh_pm": {
+        "min": 3.7956888472352386,
+        "median": 6.620176815665538,
+        "mean": 6.758798875456256,
+        "max": 12.189239332096475
+      }
+    },
+    "818013716": {
+      "observations": 5,
+      "matches": 5,
+      "accounts": 1,
+      "wins": 5,
+      "win_rate_pct": 100.0,
+      "kills": {
+        "min": 18.0,
+        "median": 23.0,
+        "mean": 23.4,
+        "max": 27.0
+      },
+      "deaths": {
+        "min": 0.0,
+        "median": 4.0,
+        "mean": 3.0,
+        "max": 5.0
+      },
+      "assists": {
+        "min": 8.0,
+        "median": 12.0,
+        "mean": 15.6,
+        "max": 27.0
+      },
+      "kda": {
+        "min": 7.8,
+        "median": 13.25,
+        "mean": 16.06,
+        "max": 33.0
+      },
+      "gold_per_min": {
+        "min": 787.0,
+        "median": 820.0,
+        "mean": 877.6,
+        "max": 1071.0
+      },
+      "xp_per_min": {
+        "min": 893.0,
+        "median": 1142.0,
+        "mean": 1154.0,
+        "max": 1386.0
+      },
+      "net_worth": {
+        "min": 22810.0,
+        "median": 26397.0,
+        "mean": 28472.4,
+        "max": 34058.0
+      },
+      "hero_damage": {
+        "min": 35801.0,
+        "median": 53337.0,
+        "mean": 52093.0,
+        "max": 74407.0
+      },
+      "tower_damage": {
+        "min": 6797.0,
+        "median": 10693.0,
+        "mean": 12686.8,
+        "max": 25490.0
+      },
+      "dur_min": {
+        "min": 25.433333333333334,
+        "median": 33.65,
+        "mean": 33.76,
+        "max": 43.55
+      },
+      "hd_pm": {
+        "min": 1275.0392464678177,
+        "median": 1585.0520059435364,
+        "mean": 1523.4335374347527,
+        "max": 1708.5419058553389
+      },
+      "lh_pm": {
+        "min": 7.576493443419134,
+        "median": 10.195177956371987,
+        "mean": 9.874990564232743,
+        "max": 13.075780089153046
+      }
+    },
+    "826423518": {
+      "observations": 9,
+      "matches": 9,
+      "accounts": 1,
+      "wins": 9,
+      "win_rate_pct": 100.0,
+      "kills": {
+        "min": 1.0,
+        "median": 16.0,
+        "mean": 14.666666666666666,
+        "max": 26.0
+      },
+      "deaths": {
+        "min": 0.0,
+        "median": 3.0,
+        "mean": 3.4444444444444446,
+        "max": 6.0
+      },
+      "assists": {
+        "min": 0.0,
+        "median": 13.0,
+        "mean": 11.777777777777779,
+        "max": 22.0
+      },
+      "kda": {
+        "min": 0.5,
+        "median": 5.8,
+        "mean": 11.477777777777778,
+        "max": 43.0
+      },
+      "gold_per_min": {
+        "min": 523.0,
+        "median": 793.0,
+        "mean": 753.2222222222222,
+        "max": 925.0
+      },
+      "xp_per_min": {
+        "min": 346.0,
+        "median": 1039.0,
+        "mean": 916.3333333333334,
+        "max": 1344.0
+      },
+      "net_worth": {
+        "min": 8405.0,
+        "median": 27231.0,
+        "mean": 27147.666666666668,
+        "max": 41826.0
+      },
+      "hero_damage": {
+        "min": 1678.0,
+        "median": 29968.0,
+        "mean": 35039.22222222222,
+        "max": 77470.0
+      },
+      "tower_damage": {
+        "min": 663.0,
+        "median": 9194.0,
+        "mean": 10187.333333333334,
+        "max": 21261.0
+      },
+      "dur_min": {
+        "min": 15.433333333333334,
+        "median": 36.36666666666667,
+        "mean": 36.80185185185185,
+        "max": 58.53333333333333
+      },
+      "hd_pm": {
+        "min": 108.72570194384448,
+        "median": 725.9103754541785,
+        "mean": 863.882424560652,
+        "max": 1584.2535787321065
+      },
+      "lh_pm": {
+        "min": 5.633136094674557,
+        "median": 8.394886363636365,
+        "mean": 8.918583749525787,
+        "max": 13.589018974566008
+      }
+    },
+    "945403669": {
+      "observations": 30,
+      "matches": 30,
+      "accounts": 1,
+      "wins": 23,
+      "win_rate_pct": 76.66666666666667,
+      "kills": {
+        "min": 5.0,
+        "median": 19.0,
+        "mean": 19.666666666666668,
+        "max": 47.0
+      },
+      "deaths": {
+        "min": 0.0,
+        "median": 6.0,
+        "mean": 6.0,
+        "max": 15.0
+      },
+      "assists": {
+        "min": 4.0,
+        "median": 9.5,
+        "mean": 9.933333333333334,
+        "max": 29.0
+      },
+      "kda": {
+        "min": 0.8666666666666667,
+        "median": 5.464285714285714,
+        "mean": 9.09228354978355,
+        "max": 39.0
+      },
+      "gold_per_min": {
+        "min": 394.0,
+        "median": 652.5,
+        "mean": 645.3333333333334,
+        "max": 906.0
+      },
+      "xp_per_min": {
+        "min": 527.0,
+        "median": 1078.0,
+        "mean": 1014.9333333333333,
+        "max": 1373.0
+      },
+      "net_worth": {
+        "min": 12799.0,
+        "median": 22910.5,
+        "mean": 23297.633333333335,
+        "max": 45533.0
+      },
+      "hero_damage": {
+        "min": 13433.0,
+        "median": 39282.0,
+        "mean": 44093.1,
+        "max": 110195.0
+      },
+      "tower_damage": {
+        "min": 0.0,
+        "median": 2004.5,
+        "mean": 3585.8,
+        "max": 16728.0
+      },
+      "dur_min": {
+        "min": 21.7,
+        "median": 38.525,
+        "mean": 40.00666666666667,
+        "max": 60.266666666666666
+      },
+      "hd_pm": {
+        "min": 391.2,
+        "median": 1025.9939482538236,
+        "mean": 1078.4117105018036,
+        "max": 1828.4568584070796
+      },
+      "lh_pm": {
+        "min": 1.8455366098294883,
+        "median": 5.6141745824823035,
+        "mean": 5.284862820571185,
+        "max": 7.218997361477573
+      }
+    },
+    "970030081": {
+      "observations": 3,
+      "matches": 3,
+      "accounts": 1,
+      "wins": 3,
+      "win_rate_pct": 100.0,
+      "kills": {
+        "min": 18.0,
+        "median": 19.0,
+        "mean": 19.333333333333332,
+        "max": 21.0
+      },
+      "deaths": {
+        "min": 0.0,
+        "median": 3.0,
+        "mean": 2.6666666666666665,
+        "max": 5.0
+      },
+      "assists": {
+        "min": 7.0,
+        "median": 10.0,
+        "mean": 11.666666666666666,
+        "max": 18.0
+      },
+      "kda": {
+        "min": 7.8,
+        "median": 8.333333333333334,
+        "mean": 15.044444444444444,
+        "max": 29.0
+      },
+      "gold_per_min": {
+        "min": 822.0,
+        "median": 957.0,
+        "mean": 956.0,
+        "max": 1089.0
+      },
+      "xp_per_min": {
+        "min": 1228.0,
+        "median": 1323.0,
+        "mean": 1381.6666666666667,
+        "max": 1594.0
+      },
+      "net_worth": {
+        "min": 29325.0,
+        "median": 33837.0,
+        "mean": 33073.666666666664,
+        "max": 36059.0
+      },
+      "hero_damage": {
+        "min": 37740.0,
+        "median": 39206.0,
+        "mean": 40299.333333333336,
+        "max": 43952.0
+      },
+      "tower_damage": {
+        "min": 2753.0,
+        "median": 6286.0,
+        "mean": 5346.333333333333,
+        "max": 7000.0
+      },
+      "dur_min": {
+        "min": 32.916666666666664,
+        "median": 36.15,
+        "mean": 35.32222222222222,
+        "max": 36.9
+      },
+      "hd_pm": {
+        "min": 1084.5366528354082,
+        "median": 1146.5316455696204,
+        "mean": 1140.7264698387132,
+        "max": 1191.111111111111
+      },
+      "lh_pm": {
+        "min": 10.433604336043361,
+        "median": 13.858921161825727,
+        "mean": 14.254470524606152,
+        "max": 18.47088607594937
+      }
+    }
+  },
+  "limitations": [
+    "All 87 supplied observations carry smurf=1, provenance of labels is undocumented.",
+    "No negative or peer control group; classification quality or prevalence cannot be estimated.",
+    "Rank, tier, farm_pos, perf_z and other derived fields are entirely missing.",
+    "No timestamps, match modes or objective role field. CSV period cannot be verified.",
+    "Several observations belong to same account; row count is not count of independent players.",
+    "Descriptive win rate only concerns this selected file; no generalization or causality."
+  ]
+}

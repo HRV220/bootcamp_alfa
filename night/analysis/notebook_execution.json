@@ -1,0 +1,68 @@
+{
+  "started_at_utc": "2026-11-13T19:53:56.030414+00:00",
+  "finished_at_utc": "2026-11-13T19:53:56.048276+00:00",
+  "method": "Sequential CPython exec in shared namespace; no Jupyter kernel launched",
+  "python_version": "3.15.2",
+  "implementation": "CPython",
+  "status": "passed",
+  "exit_code": 0,
+  "code_cells_executed": 6,
+  "notebook_sha256": "a2dba7fc529d1e019483fa5cc19e232ebcd362e8281827ebe37e8fa977a3a31c",
+  "source_csv_sha256": "68da5dec95f23e55ebbb8a4cfd175063a415ab26e849ac1cdc05b477f68ef7a5",
+  "cells": [
+    {
+      "cell_index": 2,
+      "execution_count": 1,
+      "status": "passed",
+      "duration_seconds": 0.014077,
+      "source_sha256": "3cd673b6ae80e0a0268ce3dd19a27dba2e036e317dc8eb4418032a193d507245",
+      "stdout": "Источник: task\\case2\\smurf_players.csv\nSHA-256: 68da5dec95f23e55ebbb8a4cfd175063a415ab26e849ac1cdc05b477f68ef7a5\nНаблюдения: 87 Столбцы: 46\nБезымянный первый столбец: True (индекс экспорта, не бизнес-ключ)\n",
+      "error": null
+    },
+    {
+      "cell_index": 4,
+      "execution_count": 2,
+      "status": "passed",
+      "duration_seconds": 0.001058,
+      "source_sha256": "590b439f1a3d6ba6a44e55ab6536adb52454c8ae64fe87565c2e3e79462ffea4",
+      "stdout": "Дубли (match_id, player_slot): 0\nДубли (match_id, account_id): 0\nПолностью пустые поля: rank, calibration, rank_known, tier, kda_c, farm_pos, perf_z\nМетки smurf: {'1': 87}\nPASS: контракт обязательных полей и уникальности\n",
+      "error": null
+    },
+    {
+      "cell_index": 6,
+      "execution_count": 3,
+      "status": "passed",
+      "duration_seconds": 0.000539,
+      "source_sha256": "3c71858ae728f2d60d46d39a3bc4f707ee4c3e18f9f0e94d469adcc3f1dd83ea",
+      "stdout": "Проверенных формул: 261\nОтклонений: 0\nPASS: KDA, урон/мин и last hits/мин\n",
+      "error": null
+    },
+    {
+      "cell_index": 8,
+      "execution_count": 4,
+      "status": "passed",
+      "duration_seconds": 0.000513,
+      "source_sha256": "74e2a2647bf1249f4c252b75e801ec29bee564c9fe90ac655692fe14af596a72",
+      "stdout": "{\n  \"observations\": 87,\n  \"matches\": 87,\n  \"accounts\": 6,\n  \"wins\": 77,\n  \"win_rate_pct\": 88.50574712643679,\n  \"median_gpm\": 711.0,\n  \"median_xpm\": 1046.0,\n  \"median_kda\": 9.333333333333334\n}\nОписательные пороги: {\"KDA > 5\": 66, \"GPM > 700\": 46, \"Оба условия\": 41}\n",
+      "error": null
+    },
+    {
+      "cell_index": 10,
+      "execution_count": 5,
+      "status": "passed",
+      "duration_seconds": 0.00042,
+      "source_sha256": "8d6dfaa22a61194447fe403c3448d67b1a353c78a2095023a261a6097e49c6e2",
+      "stdout": "| account_id | матчи | победы | винрейт, % | GPM медиана | XPM медиана | KDA медиана |\n|---|---:|---:|---:|---:|---:|---:|\n| 307275024 | 10 | 9 | 90.00 | 802.5 | 1063.5 | 8.500 |\n| 726454100 | 30 | 28 | 93.33 | 668.5 | 942.0 | 15.500 |\n| 818013716 | 5 | 5 | 100.00 | 820.0 | 1142.0 | 13.250 |\n| 826423518 | 9 | 9 | 100.00 | 793.0 | 1039.0 | 5.800 |\n| 945403669 | 30 | 23 | 76.67 | 652.5 | 1078.0 | 5.464 |\n| 970030081 | 3 | 3 | 100.00 | 957.0 | 1323.0 | 8.333 |\n",
+      "error": null
+    },
+    {
+      "cell_index": 12,
+      "execution_count": 6,
+      "status": "passed",
+      "duration_seconds": 0.000587,
+      "source_sha256": "dd4f2ba0abb1ef7c2081265ae386ecba92b6bb13c8529878b1232997cb412234",
+      "stdout": "PASS: перерасчёт совпадает с smurf_profile.json\nPASS: исходный CSV не изменён\n",
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+    "application":  "Microsoft PowerPoint COM",
+    "input":  "D:\\ALL\\WK\\Batcamp\\night\\output\\Dota2_SQL_ML.pptx",
+    "input_sha256":  "d1af48ab7a55efd0d518ef073ccab835cf5d91e6e4f5291b419ef2fce43a69cc",
+    "opened_read_only":  true,
+    "native_open_verified":  true,
+    "slides":  11,
+    "width":  960,
+    "height":  540,
+    "png_export_succeeded":  true,
+    "pdf_export_succeeded":  true,
+    "output":  "D:\\ALL\\WK\\Batcamp\\night\\qa\\final",
+    "completed_utc":  "2026-11-13T19:56:52.7593299Z"
+}

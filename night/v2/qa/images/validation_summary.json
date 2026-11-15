@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checks": {
+    "package": true,
+    "geometry": true,
+    "main_15_slide_texts_preserved": true,
+    "user_images_original_bytes": true,
+    "notes_22": true,
+    "png_22": true,
+    "pdf_22": true
+  },
+  "slide_count": 22,
+  "main_slides": 15,
+  "appendix_slides": 7,
+  "sha256": "284d8e04ebf42583f4d35d6dc5fd6bb330ec07a5b4cf2674c4f77298dc366e9d"
+}
